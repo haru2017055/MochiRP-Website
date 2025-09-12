@@ -1,19 +1,20 @@
 {
   "seo": {
-    "title": "NightCity Roleplay - Premium GTA V FiveM RP Server",
-    "shortTitle": "NightCity RP",
-    "description": "Join the most immersive GTA V FiveM roleplay server. Custom framework, active community, realistic economy, and endless roleplay possibilities. Apply for whitelist today!",
+    "title": "夜城角色扮演 - 高端 GTA V FiveM RP 伺服器",
+    "shortTitle": "夜城 RP",
+    "description": "加入最沉浸式的 GTA V FiveM 角色扮演伺服器。專屬框架、活躍社群、真實經濟，以及無限的角色扮演可能性。立即申請白名單！",
     "keywords": [
-      "FiveM", 
-      "GTA V", 
-      "Roleplay", 
-      "RP Server", 
-      "GTA Roleplay", 
-      "FiveM Server", 
-      "Gaming Community",
-      "Los Santos",
-      "Whitelist Server"
+      "FiveM",
+      "GTA V",
+      "角色扮演",
+      "RP 伺服器",
+      "GTA RP",
+      "FiveM 伺服器",
+      "遊戲社群",
+      "洛聖都",
+      "白名單伺服器"
     ],
+
     "ogImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&h=630&fit=crop",
     "twitterCard": "summary_large_image",
     "twitterHandle": "@nightcityrp",
@@ -23,7 +24,7 @@
     "url": "https://nightcity-rp.com"
   },
   "legal": {
-    "companyName": "NightCity Roleplay",
+    "companyName": "夜城角色扮演",
     "email": "contact@nightcity-rp.com",
     "privacyEmail": "privacy@nightcity-rp.com",
     "dpoEmail": "dpo@nightcity-rp.com",
@@ -32,25 +33,26 @@
     "minAge": 16,
     "copyrightYear": 2025,
     "dataRetention": {
-      "characterData": "6 months of inactivity",
-      "chatLogs": "30 days",
-      "connectionLogs": "90 days",
-      "banRecords": "Permanently",
-      "whitelistApplications": "1 year"
-    }
+      "characterData": "閒置 6 個月後刪除",
+      "chatLogs": "保存 30 天",
+      "connectionLogs": "保存 90 天",
+      "banRecords": "永久保存",
+      "whitelistApplications": "保存 1 年"
+}
   },
   "server": {
-    "name": "NightCity Roleplay",
+    "name": "MOCHIRP角色扮演",
     "shortName": "NCRP",
-    "tagline": "Where Stories Come Alive",
-    "slogan": "From the Streets to the Penthouse",
-    "description": "Experience the most immersive GTA V roleplay server with custom features, active community, and endless possibilities.",
+    "tagline": "故事在這裡復活",
+    "slogan": "從街頭到頂樓",
+    "description": "體驗最沉浸式的 GTA V 角色扮演伺服器，擁有自訂功能、活躍社群，以及無限可能。",
     "ip": "play.nightcity-rp.com",
     "port": "30120",
     "discord": "https://discord.gg/fourtwenty",
     "maxPlayers": 256,
-    "location": "Los Santos",
-    "language": "English",
+    "location": "洛聖都",
+    "language": "繁體中文",
+
     "logo": {
       "type": "text",
       "content": "NC"
@@ -62,14 +64,15 @@
       "businesses": "45+"
     },
     "loadingTips": [
-      "Remember to stay in character at all times",
-      "Press F1 to open the help menu",
-      "Join our Discord for the latest updates",
-      "Quality roleplay is always rewarded",
-      "Respect the turf - know the gang territories",
-      "Money talks, but respect walks",
-      "Every story starts from the bottom"
+      "請隨時保持角色扮演",
+      "按 F1 打開幫助選單",
+      "加入我們的 Discord 以獲取最新消息",
+      "高品質的角色扮演總會得到回報",
+      "尊重地盤 - 了解幫派領土",
+      "金錢能說話，但尊重更重要",
+      "每個故事都從底層開始"
     ]
+
   },
   "images": {
     "hero": {
@@ -81,36 +84,36 @@
       "galleryThumbnail": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop"
     }
   },
-  "ui": {
+"ui": {
     "hero": {
-      "graffiti": "WANTED",
-      "loadingText": "Loading...",
+      "graffiti": "通緝",
+      "loadingText": "載入中...",
       "statusLabels": {
-        "status": "Status",
-        "players": "Players",
-        "server": "Server",
-        "online": "ONLINE",
-        "offline": "OFFLINE"
+        "status": "狀態",
+        "players": "玩家",
+        "server": "伺服器",
+        "online": "在線",
+        "offline": "離線"
       }
     },
     "features": {
-      "sectionTag": "Why Choose Us",
-      "title": "Server",
-      "titleAccent": "Features",
-      "highlight": "256+ SLOT SERVER • CUSTOM SCRIPTS • 24/7 UPTIME"
+      "sectionTag": "為什麼選擇我們",
+      "title": "伺服器",
+      "titleAccent": "特色",
+      "highlight": "256+ 人數伺服器 • 自訂腳本 • 24/7 穩定運行"
     },
     "jobs": {
-      "sectionTag": "Opportunities",
-      "title": "Make Your",
-      "titleAccent": "Living",
-      "subtitle": "Choose your path in Los Santos. Legal or illegal, the choice is yours.",
-      "categoriesTitle": "Categories",
-      "allJobsLabel": "All Jobs",
-      "totalJobsLabel": "Total Jobs",
-      "salaryRangeLabel": "Salary Range",
-      "applyButtonText": "APPLY NOW",
-      "salaryPrefix": "Starting",
-      "graffitiText": "FOLLOW THE RULES",
+      "sectionTag": "工作機會",
+      "title": "打造你的",
+      "titleAccent": "生活",
+      "subtitle": "在洛聖都選擇你的道路。合法或非法，由你決定。",
+      "categoriesTitle": "分類",
+      "allJobsLabel": "所有職業",
+      "totalJobsLabel": "總職業數",
+      "salaryRangeLabel": "薪資範圍",
+      "applyButtonText": "立即申請",
+      "salaryPrefix": "起薪",
+      "graffitiText": "遵守規則",
       "salarySymbols": {
         "low": "$",
         "medium": "$$",
@@ -124,74 +127,75 @@
       }
     },
     "rules": {
-      "sectionTag": "MANDATORY",
-      "title": "Know The",
-      "titleAccent": "Rules",
-      "subtitle": "Break these and face the consequences. We run a tight ship here.",
-      "graffiti": "RESPECT THE CODE",
-      "footer": "Play Fair or Get Banned",
+      "sectionTag": "強制規範",
+      "title": "了解",
+      "titleAccent": "規則",
+      "subtitle": "違反規則將承擔後果。我們的街區嚴格管制。",
+      "graffiti": "尊重規範",
+      "footer": "公平遊玩，否則封禁",
       "severityLabels": {
-        "high": "high priority",
-        "medium": "medium priority",
-        "low": "low priority"
+        "high": "高優先級",
+        "medium": "中優先級",
+        "low": "低優先級"
       }
     },
     "team": {
-      "sectionTag": "CLASSIFIED",
-      "title": "The",
-      "titleAccent": "Crew",
-      "subtitle": "The ones who keep the streets in check. Know their faces, respect their authority.",
-      "casePrefix": "CASE #",
-      "aliasPrefix": "ALIAS:",
-      "topBrassStamp": "TOP BRASS",
-      "joinTitle": "Join The Crew",
-      "joinSubtitle": "Think you got what it takes to run with us?",
-      "joinButton": "APPLY ON DISCORD"
+      "sectionTag": "機密",
+      "title": "我們的",
+      "titleAccent": "團隊",
+      "subtitle": "維持街頭秩序的人們。記住他們的臉孔，尊重他們的權威。",
+      "casePrefix": "案件號 #",
+      "aliasPrefix": "代號：",
+      "topBrassStamp": "高層",
+      "joinTitle": "加入我們",
+      "joinSubtitle": "覺得你有實力和我們一起打拼嗎？",
+      "joinButton": "前往 Discord 申請"
     },
     "gallery": {
-      "sectionTag": "EVIDENCE",
-      "title": "Evidence",
-      "titleAccent": "Locker",
-      "subtitle": "Photographic evidence from the streets. Handle with care.",
-      "evidencePrefix": "EVIDENCE #",
-      "loadMore": "LOAD MORE EVIDENCE",
-      "featuredBadge": "HOT"
+      "sectionTag": "證據庫",
+      "title": "證據",
+      "titleAccent": "檔案櫃",
+      "subtitle": "街頭留下的影像證據。請小心查看。",
+      "evidencePrefix": "證據編號 #",
+      "loadMore": "載入更多證據",
+      "featuredBadge": "熱門"
     },
     "footer": {
-      "graffitiTop": "RESPECT",
-      "graffitiBottom": "THE STREETS",
-      "establishedPrefix": "EST.",
+      "graffitiTop": "尊重",
+      "graffitiBottom": "街頭",
+      "establishedPrefix": "創立於",
       "sections": {
-        "navigation": "Navigation",
-        "serverStats": "Server Stats",
-        "connect": "Connect"
+        "navigation": "導覽",
+        "serverStats": "伺服器數據",
+        "connect": "連線"
       },
       "statsLabels": {
-        "players": "Players",
-        "activeGangs": "Active Gangs",
-        "businesses": "Businesses"
+        "players": "玩家",
+        "activeGangs": "活躍幫派",
+        "businesses": "商業據點"
       },
-      "serverConnection": "Server Connection",
-      "onlineStatus": "Online",
-      "disclaimer": "Not affiliated with Rockstar Games or Take-Two Interactive."
+      "serverConnection": "伺服器連線",
+      "onlineStatus": "在線",
+      "disclaimer": "本伺服器與 Rockstar Games 或 Take-Two Interactive 無任何關聯。"
     },
     "navigation": {
-      "menuItems": ["Features", "Jobs", "Rules", "Team", "Gallery"],
-      "connectButton": "CONNECT",
-      "discordButton": "DISCORD",
-      "serverCopyMessage": "Server IP copied:",
-      "onlineText": "Online",
-      "offlineText": "Offline"
+      "menuItems": ["特色", "職業", "規則", "團隊", "圖庫"],
+      "connectButton": "連線",
+      "discordButton": "Discord",
+      "serverCopyMessage": "伺服器 IP 已複製：",
+      "onlineText": "在線",
+      "offlineText": "離線"
     },
     "common": {
-      "playNow": "PLAY NOW",
-      "discord": "DISCORD",
-      "loading": "Loading...",
-      "privacy": "Privacy",
-      "terms": "Terms",
+      "playNow": "立即遊玩",
+      "discord": "Discord",
+      "loading": "載入中...",
+      "privacy": "隱私政策",
+      "terms": "服務條款",
       "cookies": "Cookies"
     }
   },
+
   "features": [
     {
       "id": "custom-framework",
