@@ -462,187 +462,189 @@
   "rules": [
     {
       "id": "rdm",
-      "title": "No Random Deathmatch (RDM)",
-      "description": "No killing without valid roleplay reason - this ain't GTA Online",
+      "title": "禁止隨機殺人 (RDM)",
+      "description": "沒有合理角色扮演理由不得殺人 — 這不是 GTA 線上模式",
       "category": "combat",
       "severity": "high"
     },
     {
       "id": "vdm",
-      "title": "No Vehicle Deathmatch (VDM)",
-      "description": "Cars ain't weapons - use them for getaways, not takedowns",
+      "title": "禁止車輛殺人 (VDM)",
+      "description": "車子不是武器 — 用來逃跑，不是用來輾人",
       "category": "combat",
       "severity": "high"
     },
     {
       "id": "metagaming",
-      "title": "No Metagaming",
-      "description": "What you know OOC stays OOC - keep it real",
+      "title": "禁止元遊戲 (Metagaming)",
+      "description": "你在 OOC 知道的事情就只能留在 OOC — 保持真實",
       "category": "roleplay",
       "severity": "high"
     },
     {
       "id": "powergaming",
-      "title": "No Powergaming",
-      "description": "Give others a chance to react - nobody's invincible",
+      "title": "禁止強迫遊戲行為 (Powergaming)",
+      "description": "給其他人反應機會 — 沒有人是無敵的",
       "category": "roleplay",
       "severity": "medium"
     },
     {
       "id": "nlr",
-      "title": "New Life Rule",
-      "description": "When you die, forget the last 15 minutes",
+      "title": "新生命規則 (NLR)",
+      "description": "當你死亡時，忘記過去 15 分鐘發生的事",
       "category": "roleplay",
       "severity": "medium"
     },
     {
       "id": "respect",
-      "title": "Respect Everyone",
-      "description": "Keep it street but keep it respectful - no OOC hate",
+      "title": "尊重每一個人",
+      "description": "保持街頭風格但也要尊重他人 — 禁止 OOC 仇恨",
       "category": "general",
       "severity": "high"
     },
     {
       "id": "greenzone",
-      "title": "Green Zones",
-      "description": "No crime at hospitals, police stations, or spawn points",
+      "title": "安全區 (Green Zones)",
+      "description": "禁止在醫院、警局或出生點進行犯罪",
       "category": "zones",
       "severity": "medium"
     },
     {
       "id": "corruption",
-      "title": "Cop Corruption",
-      "description": "Dirty cops allowed but need admin approval",
+      "title": "警察腐敗",
+      "description": "允許黑警，但必須經過管理員批准",
       "category": "special",
       "severity": "low"
     },
     {
       "id": "failrp",
-      "title": "No FailRP",
-      "description": "Stay in character - act like your life matters",
+      "title": "禁止 FailRP",
+      "description": "保持角色扮演 — 把生命當成真的一樣看待",
       "category": "roleplay",
       "severity": "high"
     },
     {
       "id": "combat-logging",
-      "title": "No Combat Logging",
-      "description": "Don't disconnect during fights or police chases",
+      "title": "禁止戰鬥中登出",
+      "description": "不要在戰鬥或警察追逐中斷線",
       "category": "combat",
       "severity": "high"
     },
     {
       "id": "robbery",
-      "title": "Robbery Rules",
-      "description": "Need 4+ cops online for banks, 2+ for stores",
+      "title": "搶劫規則",
+      "description": "搶銀行需要 4 名以上警察在線，搶商店需要 2 名以上",
       "category": "special",
       "severity": "medium"
     },
     {
       "id": "initiation",
-      "title": "Proper Initiation",
-      "description": "Always initiate RP before hostile actions",
+      "title": "正確的開場",
+      "description": "在進行敵對行為前必須先有角色互動開場",
       "category": "combat",
       "severity": "high"
     },
     {
       "id": "value-life",
-      "title": "Value Your Life",
-      "description": "Act realistically when outnumbered or at gunpoint",
+      "title": "珍惜你的生命",
+      "description": "在寡不敵眾或被槍指著時，請做出真實反應",
       "category": "roleplay",
       "severity": "high"
     },
     {
       "id": "mic-required",
-      "title": "Microphone Required",
-      "description": "Voice chat mandatory - no text RP",
+      "title": "必須使用麥克風",
+      "description": "語音聊天是必須的 — 禁止純文字角色扮演",
       "category": "general",
       "severity": "high"
     },
     {
       "id": "exploits",
-      "title": "No Exploiting",
-      "description": "Report bugs, don't abuse them - instant ban",
+      "title": "禁止利用漏洞",
+      "description": "回報漏洞，不要濫用 — 立即封禁",
       "category": "general",
       "severity": "high"
     },
     {
       "id": "safezones",
-      "title": "Safe Zone Rules",
-      "description": "No weapons out in government buildings",
+      "title": "安全區規則",
+      "description": "政府機構內禁止持械",
       "category": "zones",
       "severity": "medium"
     },
     {
       "id": "hostage",
-      "title": "Hostage Rules",
-      "description": "No fake hostages - must be real players",
+      "title": "人質規則",
+      "description": "禁止假人質 — 人質必須是真人玩家",
       "category": "special",
       "severity": "medium"
     },
     {
       "id": "ems-respect",
-      "title": "Respect EMS",
-      "description": "Let medics do their job - no camping hospitals",
+      "title": "尊重醫護人員",
+      "description": "讓醫護做他們的工作 — 禁止在醫院守株待兔",
       "category": "combat",
       "severity": "medium"
     },
     {
       "id": "stream-sniping",
-      "title": "No Stream Sniping",
-      "description": "Don't use streams to gain advantage",
+      "title": "禁止直播狙擊",
+      "description": "不要利用直播獲取優勢",
       "category": "general",
       "severity": "high"
     },
     {
       "id": "erp",
-      "title": "No ERP",
-      "description": "Keep it street legal - no sexual content",
+      "title": "禁止 ERP",
+      "description": "保持街頭合法 — 禁止性相關內容",
       "category": "roleplay",
       "severity": "high"
     }
   ],
+
   "team": [
     {
       "id": "john-doe",
       "name": "John 'Boss' Doe",
-      "role": "Server Owner",
+      "role": "伺服器擁有者",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
       "discord": "bigboss",
-      "description": "Running this operation since day one",
+      "description": "自第一天起就負責經營這項計畫",
       "badge": "OG",
       "status": "active"
     },
     {
       "id": "jane-smith",
       "name": "Jane 'Control' Smith",
-      "role": "Head Admin",
+      "role": "總管理員",
       "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
       "discord": "control",
-      "description": "Keeping the streets clean and fair",
+      "description": "維持街頭的公平與秩序",
       "badge": "ADMIN",
       "status": "active"
     },
     {
       "id": "mike-wilson",
       "name": "Mike 'Tech' Wilson",
-      "role": "Developer",
+      "role": "開發者",
       "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
       "discord": "techguy",
-      "description": "Building the tech that runs the streets",
+      "description": "打造運行街頭的技術核心",
       "badge": "DEV",
       "status": "active"
     },
     {
       "id": "sarah-jones",
       "name": "Sarah 'Peace' Jones",
-      "role": "Moderator",
+      "role": "版主",
       "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
       "discord": "peacekeeper",
-      "description": "First response to street problems",
+      "description": "第一時間回應街頭問題",
       "badge": "MOD",
       "status": "active"
     }
   ],
+
   "api": {
     "serverCode": "ymkax5",
     "cfxApiUrl": "https://servers-frontend.fivem.net/api/servers/single/",
