@@ -18,7 +18,7 @@
     "twitterCard": "summary_large_image",
     "twitterHandle": "@mochirp",
     "favicon": "/favicon.ico",
-    "themeColor": "#4A7C4E",
+    "themeColor": "#f249b7",
     "locale": "zh_TW",
     "url": "https://mochirp.com"
   },
@@ -32,19 +32,19 @@
     "minAge": 16,
     "copyrightYear": 2025,
     "dataRetention": {
-      "characterData": "6 months of inactivity",
-      "chatLogs": "30 days",
-      "connectionLogs": "90 days",
-      "banRecords": "Permanently",
-      "whitelistApplications": "1 year"
+      "characterData": "閒置 6 個月",
+      "chatLogs": "30 天",
+      "connectionLogs": "90 天",
+      "banRecords": "永久",
+      "whitelistApplications": "1 年"
     }
   },
   "server": {
-    "name": "MochiRP",
-    "shortName": "NCRP",
-    "tagline": "Where Stories Come Alive",
-    "slogan": "From the Streets to the Penthouse",
-    "description": "Experience the most immersive GTA V roleplay server with custom features, active community, and endless possibilities.",
+    "name": "麻糬RP",
+    "shortName": "MCRP",
+    "tagline": "故事在此展開",
+    "slogan": "從街頭到頂樓",
+    "description": "體驗最沉浸的 GTA V RP 伺服器，擁有自訂功能、活躍的社群，以及無限可能性。",
     "ip": "play.nightcity-rp.com",
     "port": "30120",
     "discord": "https://discord.gg/fourtwenty",
@@ -53,7 +53,7 @@
     "language": "English",
     "logo": {
       "type": "text",
-      "content": "NC"
+      "content": "MC"
     },
     "stats": {
       "established": "2024",
