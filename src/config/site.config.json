@@ -40,23 +40,23 @@
     }
   },
   "server": {
-    "name": "麻糬RP",
+    "name": "MochiRP",
     "shortName": "MCRP",
     "tagline": "故事在此展開",
     "slogan": "從街頭到頂樓",
     "description": "體驗最沉浸的 GTA V RP 伺服器，擁有自訂功能、活躍的社群，以及無限可能性。",
     "ip": "play.nightcity-rp.com",
     "port": "30120",
-    "discord": "https://discord.gg/fourtwenty",
+    "discord": "https://discord.gg/GF54979JNR",
     "maxPlayers": 256,
     "location": "Los Santos",
-    "language": "English",
+    "language": "繁體中文",
     "logo": {
       "type": "text",
       "content": "MC"
     },
     "stats": {
-      "established": "2024",
+      "established": "2025",
       "totalPlayers": "15,000+",
       "activeGangs": "12",
       "businesses": "45+"
@@ -83,7 +83,7 @@
   },
   "ui": {
     "hero": {
-      "graffiti": "通緝",
+      "graffiti": "WANTED",
       "loadingText": "載入中...",
       "statusLabels": {
         "status": "狀態",
@@ -110,7 +110,7 @@
       "salaryRangeLabel": "薪資範圍",
       "applyButtonText": "立即申請",
       "salaryPrefix": "起薪",
-      "graffitiText": "遵守規則",
+      "graffitiText": "FOLLOW THE RULES",
       "salarySymbols": {
         "low": "$",
         "medium": "$$",
@@ -128,7 +128,7 @@
       "title": "了解這些",
       "titleAccent": "規則",
       "subtitle": "違反規則將承擔後果。我們嚴格管理這裡的秩序。",
-      "graffiti": "遵守規範",
+      "graffiti": "RESPECT THE CODE",
       "footer": "公平遊玩，否則封禁",
       "severityLabels": {
         "high": "高優先級",
@@ -158,8 +158,8 @@
       "featuredBadge": "熱門"
     },
     "footer": {
-      "graffitiTop": "尊重",
-      "graffitiBottom": "街頭",
+      "graffitiTop": "RESPECT",
+      "graffitiBottom": "THE STREETS",
       "establishedPrefix": "創立",
       "sections": {
         "navigation": "導覽",
@@ -653,7 +653,7 @@
     "refreshInterval": 30000
   },
   "social": {
-    "discord": "https://discord.gg/fourtwenty",
+    "discord": "https://discord.gg/GF54979JNR",
     "twitter": "https://twitter.com/nightcityrp",
     "youtube": "https://youtube.com/@nightcityrp",
     "tiktok": "https://tiktok.com/@nightcityrp",
@@ -712,7 +712,7 @@
     "showSocialLinks": true,
     "showLegalLinks": true,
     "showServerStats": true,
-    "copyright": "© 2025 麻糬RP (MochiRP)。版權所有。",
+    "copyright": "© 2025 MochiRP (MochiRP)。版權所有。",
     "disclaimer": "本伺服器與 Rockstar Games 或 Take-Two Interactive 無任何關聯"
   }
 }
