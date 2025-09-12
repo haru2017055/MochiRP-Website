@@ -662,18 +662,19 @@
     "enabled": true,
     "applicationUrl": "https://apply.nightcity-rp.com",
     "requirements": [
-      "Minimum age of 16 years",
-      "Working microphone",
-      "Read and understand server rules",
-      "Pass character backstory review"
+      "年齡至少 16 歲",
+      "需有可用麥克風",
+      "閱讀並理解伺服器規則",
+      "通過角色背景審核"
     ],
     "process": [
-      "Fill out application form",
-      "Wait for review (24-48 hours)",
-      "Interview on Discord",
-      "Welcome to the streets"
+      "填寫申請表",
+      "等待審核（24-48 小時）",
+      "進行 Discord 面試",
+      "歡迎加入街頭生活"
     ]
   },
+
   "donations": {
     "enabled": true,
     "currency": "USD",
@@ -681,23 +682,23 @@
     "packages": [
       {
         "id": "supporter",
-        "name": "Street Supporter",
+        "name": "街頭支持者",
         "price": 5,
-        "perks": ["Priority Queue", "Supporter Tag", "Extra Outfit Slot"],
+        "perks": ["優先佇列", "支持者稱號", "額外服裝欄位"],
         "popular": false
       },
       {
         "id": "vip",
-        "name": "VIP Status",
+        "name": "VIP 身分",
         "price": 15,
-        "perks": ["Priority Queue", "VIP Tag", "Extra Character Slot", "Custom Plate", "VIP Lounge Access"],
+        "perks": ["優先佇列", "VIP 稱號", "額外角色欄位", "自訂車牌", "VIP 休息室通行"],
         "popular": true
       },
       {
         "id": "elite",
-        "name": "Elite Gang",
+        "name": "精英幫派",
         "price": 30,
-        "perks": ["Priority Queue", "Elite Tag", "2 Extra Character Slots", "Custom Plate", "Exclusive Vehicles", "Custom Gang Tag"],
+        "perks": ["優先佇列", "精英稱號", "2 個額外角色欄位", "自訂車牌", "專屬載具", "自訂幫派稱號"],
         "popular": false
       }
     ]
@@ -707,7 +708,7 @@
     "showSocialLinks": true,
     "showLegalLinks": true,
     "showServerStats": true,
-    "copyright": "© 2025 NightCity Roleplay. All rights reserved.",
-    "disclaimer": "Not affiliated with Rockstar Games or Take-Two Interactive."
+    "copyright": "© 2025 麻糬RP (MochiRP)。版權所有。",
+    "disclaimer": "本伺服器與 Rockstar Games 或 Take-Two Interactive 無任何關聯"
   }
 }
