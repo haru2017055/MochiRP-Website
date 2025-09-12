@@ -1,29 +1,29 @@
 {
   "seo": {
-    "title": "NightCity Roleplay - Premium GTA V FiveM RP Server",
-    "shortTitle": "NightCity RP",
-    "description": "Join the most immersive GTA V FiveM roleplay server. Custom framework, active community, realistic economy, and endless roleplay possibilities. Apply for whitelist today!",
+    "title": "MochiRP - 高端 GTA V FiveM RP 伺服器",
+    "shortTitle": "MochiRP",
+    "description": "加入最沉浸式的 GTA V FiveM 角色扮演伺服器。專屬框架、活躍社群、真實經濟，以及無限的角色扮演可能性。立即申請白名單！",
     "keywords": [
       "FiveM", 
       "GTA V", 
-      "Roleplay", 
-      "RP Server", 
-      "GTA Roleplay", 
-      "FiveM Server", 
-      "Gaming Community",
-      "Los Santos",
-      "Whitelist Server"
+      "角色扮演", 
+      "RP 伺服器", 
+      "GTA RP", 
+      "FiveM 伺服器", 
+      "遊戲社群",
+      "洛聖都",
+      "白名單伺服器"
     ],
     "ogImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&h=630&fit=crop",
     "twitterCard": "summary_large_image",
-    "twitterHandle": "@nightcityrp",
+    "twitterHandle": "@mochirp",
     "favicon": "/favicon.ico",
     "themeColor": "#4A7C4E",
-    "locale": "en_US",
-    "url": "https://nightcity-rp.com"
+    "locale": "zh_TW",
+    "url": "https://mochirp.com"
   },
   "legal": {
-    "companyName": "NightCity Roleplay",
+    "companyName": "MochiRP",
     "email": "contact@nightcity-rp.com",
     "privacyEmail": "privacy@nightcity-rp.com",
     "dpoEmail": "dpo@nightcity-rp.com",
@@ -40,7 +40,7 @@
     }
   },
   "server": {
-    "name": "NightCity Roleplay",
+    "name": "MochiRP",
     "shortName": "NCRP",
     "tagline": "Where Stories Come Alive",
     "slogan": "From the Streets to the Penthouse",
@@ -358,106 +358,106 @@
       }
     ],
 "list": [
-    {
-      "id": "police",
-      "name": "警察",
-      "category": "emergency",
-      "description": "保護並服務城市，維持法律與秩序",
-      "requirements": ["年滿 18 歲", "無犯罪紀錄", "需面試"],
-      "salary": 300,
-      "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "ems",
-      "name": "急救人員",
-      "category": "emergency",
-      "description": "拯救生命並在街頭提供醫療照護",
-      "requirements": ["年滿 16 歲", "具備醫療訓練", "需活躍玩家"],
-      "salary": 250,
-      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "mechanic",
-      "name": "技工",
-      "category": "mechanic",
-      "description": "維修車輛並為街頭改裝座駕",
-      "requirements": ["無需條件", "提供訓練"],
-      "salary": 150,
-      "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "taxi",
-      "name": "計程車司機",
-      "category": "civilian",
-      "description": "負責運送市民到各地",
-      "requirements": ["有效駕照", "良好駕駛紀錄"],
-      "salary": 100,
-      "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "dealer",
-      "name": "毒販",
-      "category": "criminal",
-      "description": "販售產品並掌控地盤",
-      "requirements": ["街頭名聲", "幫派關係"],
-      "salary": 500,
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "gunrunner",
-      "name": "軍火商",
-      "category": "criminal",
-      "description": "為街頭提供武器",
-      "requirements": ["具備人脈", "可信任等級"],
-      "salary": 500,
-      "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "lawyer",
-      "name": "律師",
-      "category": "business",
-      "description": "幫助罪犯脫罪並賺取金錢",
-      "requirements": ["通過律師考試", "良好名聲"],
-      "salary": 350,
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "judge",
-      "name": "法官",
-      "category": "government",
-      "description": "決定洛聖都罪犯的命運",
-      "requirements": ["法律經驗", "需提交申請"],
-      "salary": 500,
-      "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "doctor",
-      "name": "醫生",
-      "category": "medical",
-      "description": "在醫院提供進階醫療服務",
-      "requirements": ["醫師執照", "需有經驗"],
-      "salary": 400,
-      "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "nurse",
-      "name": "護士",
-      "category": "medical",
-      "description": "協助醫生並照顧病人",
-      "requirements": ["年滿 16 歲", "提供訓練"],
-      "salary": 200,
-      "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-    },
-    {
-      "id": "auto_mechanic",
-      "name": "汽車維修工",
-      "category": "mechanic",
-      "description": "為社區修理並升級車輛",
-      "requirements": ["具備基本知識", "提供工具"],
-      "salary": 180,
-      "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
-    }
-  ]
+      {
+        "id": "police",
+        "name": "警察",
+        "category": "emergency",
+        "description": "保護並服務城市，維持法律與秩序",
+        "requirements": ["年滿 18 歲", "無犯罪紀錄", "需面試"],
+        "salary": 300,
+        "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "ems",
+        "name": "急救人員",
+        "category": "emergency",
+        "description": "拯救生命並在街頭提供醫療照護",
+        "requirements": ["年滿 16 歲", "具備醫療訓練", "需活躍玩家"],
+        "salary": 250,
+        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "mechanic",
+        "name": "技工",
+        "category": "mechanic",
+        "description": "維修車輛並為街頭改裝座駕",
+        "requirements": ["無需條件", "提供訓練"],
+        "salary": 150,
+        "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "taxi",
+        "name": "計程車司機",
+        "category": "civilian",
+        "description": "負責運送市民到各地",
+        "requirements": ["有效駕照", "良好駕駛紀錄"],
+        "salary": 100,
+        "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "dealer",
+        "name": "毒販",
+        "category": "criminal",
+        "description": "販售產品並掌控地盤",
+        "requirements": ["街頭名聲", "幫派關係"],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "gunrunner",
+        "name": "軍火商",
+        "category": "criminal",
+        "description": "為街頭提供武器",
+        "requirements": ["具備人脈", "可信任等級"],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "lawyer",
+        "name": "律師",
+        "category": "business",
+        "description": "幫助罪犯脫罪並賺取金錢",
+        "requirements": ["通過律師考試", "良好名聲"],
+        "salary": 350,
+        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "judge",
+        "name": "法官",
+        "category": "government",
+        "description": "決定洛聖都罪犯的命運",
+        "requirements": ["法律經驗", "需提交申請"],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "doctor",
+        "name": "醫生",
+        "category": "medical",
+        "description": "在醫院提供進階醫療服務",
+        "requirements": ["醫師執照", "需有經驗"],
+        "salary": 400,
+        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "nurse",
+        "name": "護士",
+        "category": "medical",
+        "description": "協助醫生並照顧病人",
+        "requirements": ["年滿 16 歲", "提供訓練"],
+        "salary": 200,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "auto_mechanic",
+        "name": "汽車維修工",
+        "category": "mechanic",
+        "description": "為社區修理並升級車輛",
+        "requirements": ["具備基本知識", "提供工具"],
+        "salary": 180,
+        "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
+      }
+    ]
   },
   "rules": [
     {
@@ -679,8 +679,8 @@
 
   "donations": {
     "enabled": true,
-    "currency": "USD",
-    "paypalUrl": "https://paypal.me/nightcityrp",
+    "currency": "TWD",
+    "paypalUrl": "https://paypal.me/strawberrytown",
     "packages": [
       {
         "id": "supporter",
