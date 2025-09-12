@@ -195,168 +195,171 @@
   "features": [
     {
       "id": "custom-framework",
-      "title": "Custom Framework",
-      "description": "Built from scratch for optimal performance and unique gameplay",
+      "title": "自訂框架",
+      "description": "從零打造，提供最佳效能與獨特的遊戲體驗",
       "icon": "Code2",
       "highlight": true
     },
     {
       "id": "gang-system",
-      "title": "Gang Territories",
-      "description": "Control turfs, manage operations, and defend your hood",
+      "title": "幫派地盤",
+      "description": "控制地盤、管理運作，並守護你的地區",
       "icon": "Users",
       "highlight": true
     },
     {
       "id": "economy",
-      "title": "Street Economy",
-      "description": "Hustle hard with drugs, weapons, and black market trading",
+      "title": "街頭經濟",
+      "description": "靠毒品、武器與黑市交易拼搏生存",
       "icon": "DollarSign",
       "highlight": false
     },
     {
       "id": "housing",
-      "title": "Cribs & Stash",
-      "description": "Own properties from trap houses to penthouses",
+      "title": "房產與藏匿點",
+      "description": "從窩點到豪華頂層公寓，擁有屬於你的房產",
       "icon": "Home",
       "highlight": false
     },
     {
       "id": "vehicles",
-      "title": "300+ Whips",
-      "description": "Custom rides from lowriders to supercars",
+      "title": "300+ 輛座駕",
+      "description": "從低底盤改裝車到超跑的專屬車庫",
       "icon": "Car",
       "highlight": false
     },
     {
       "id": "heists",
-      "title": "Bank Heists",
-      "description": "Plan and execute elaborate robberies with your crew",
+      "title": "銀行搶劫",
+      "description": "與你的團隊計畫並執行精心設計的搶劫行動",
       "icon": "Lock",
       "highlight": true
     }
   ],
+
   "gallery": {
     "images": [
       { 
         "id": 1, 
         "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop", 
-        "alt": "City skyline at night", 
-        "title": "Downtown Los Santos",
+        "alt": "城市夜景", 
+        "title": "洛聖都市中心",
         "category": "locations",
         "featured": true
       },
       { 
         "id": 2, 
         "src": "https://images.unsplash.com/photo-1593280405106-e438ebe93f5b?w=800&h=600&fit=crop", 
-        "alt": "Police chase scene", 
-        "title": "High Speed Chase",
+        "alt": "警匪追逐場景", 
+        "title": "高速追逐",
         "category": "action",
         "featured": true
       },
       { 
         "id": 3, 
         "src": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&h=600&fit=crop", 
-        "alt": "Car meet event", 
-        "title": "Weekly Car Meet",
+        "alt": "車聚活動", 
+        "title": "每週車聚",
         "category": "events",
         "featured": false
       },
       { 
         "id": 4, 
         "src": "https://images.unsplash.com/photo-1547447134-cd3f5c716030?w=800&h=600&fit=crop", 
-        "alt": "Racing event", 
-        "title": "Street Racing",
+        "alt": "賽車比賽", 
+        "title": "街頭競速",
         "category": "events",
         "featured": true
       },
       { 
         "id": 5, 
         "src": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop", 
-        "alt": "Roleplay scenario", 
-        "title": "Bank Heist RP",
+        "alt": "角色扮演場景", 
+        "title": "銀行搶劫 RP",
         "category": "roleplay",
         "featured": true
       },
       { 
         "id": 6, 
         "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop", 
-        "alt": "Community gathering", 
-        "title": "Community Event",
+        "alt": "社群聚會", 
+        "title": "社群活動",
         "category": "events",
         "featured": false
       },
       { 
         "id": 7, 
         "src": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop", 
-        "alt": "Custom vehicles", 
-        "title": "Custom Rides",
+        "alt": "自訂車輛", 
+        "title": "改裝名車",
         "category": "vehicles",
         "featured": true
       },
       { 
         "id": 8, 
         "src": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop", 
-        "alt": "Server event", 
-        "title": "Special Event",
+        "alt": "伺服器活動", 
+        "title": "特別活動",
         "category": "events",
         "featured": false
       }
     ],
+
     "categories": [
-      { "id": "all", "name": "All" },
-      { "id": "locations", "name": "Locations" },
-      { "id": "action", "name": "Action" },
-      { "id": "events", "name": "Events" },
-      { "id": "roleplay", "name": "Roleplay" },
-      { "id": "vehicles", "name": "Vehicles" }
+      { "id": "all", "name": "全部" },
+      { "id": "locations", "name": "地點" },
+      { "id": "action", "name": "動作" },
+      { "id": "events", "name": "活動" },
+      { "id": "roleplay", "name": "角色扮演" },
+      { "id": "vehicles", "name": "載具" }
     ]
   },
   "jobs": {
     "categories": [
       {
         "id": "emergency",
-        "name": "Emergency Services",
+        "name": "緊急服務",
         "color": "green",
         "legal": true
       },
       {
         "id": "civilian",
-        "name": "Civilian",
+        "name": "平民",
         "color": "blue",
         "legal": true
       },
       {
         "id": "criminal",
-        "name": "Criminal",
+        "name": "犯罪",
         "color": "red",
         "legal": false
       },
       {
         "id": "business",
-        "name": "Business",
+        "name": "商業",
         "color": "gold",
         "legal": true
       },
       {
         "id": "government",
-        "name": "Government",
+        "name": "政府",
         "color": "blue",
         "legal": true
       },
       {
         "id": "medical",
-        "name": "Medical",
+        "name": "醫療",
         "color": "green",
         "legal": true
       },
       {
         "id": "mechanic",
-        "name": "Mechanic",
+        "name": "技工",
         "color": "orange",
         "legal": true
       }
-    ],
+    ]
+  },
 "list": [
       {
         "id": "police",
@@ -457,8 +460,8 @@
         "salary": 180,
         "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
       }
-    ]
-  },
+    ],
+  
   "rules": [
     {
       "id": "rdm",
