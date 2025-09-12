@@ -607,41 +607,41 @@
   "team": [
     {
       "id": "john-doe",
-      "name": "John 'Boss' Doe",
+      "name": "小紀Dream.",
       "role": "伺服器擁有者",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
       "discord": "bigboss",
-      "description": "自第一天起就負責經營這項計畫",
+      "description": "自第一天起就負責許願?",
       "badge": "OG",
       "status": "active"
     },
     {
       "id": "jane-smith",
-      "name": "Jane 'Control' Smith",
-      "role": "總管理員",
+      "name": "狐沐沐MumuFox.",
+      "role": "總管理員+開發者",
       "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
       "discord": "control",
-      "description": "維持街頭的公平與秩序",
-      "badge": "ADMIN",
+      "description": "維持城鎮的公平與秩序",
+      "badge": "ADMIN+DEV",
       "status": "active"
     },
     {
       "id": "mike-wilson",
-      "name": "Mike 'Tech' Wilson",
-      "role": "開發者",
+      "name": "企鵝Zhi.",
+      "role": "車輛技術員",
       "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
       "discord": "techguy",
-      "description": "打造運行街頭的技術核心",
+      "description": "打造車輛相關的技術核心",
       "badge": "DEV",
       "status": "active"
     },
     {
       "id": "sarah-jones",
-      "name": "Sarah 'Peace' Jones",
-      "role": "版主",
+      "name": "蘇打Soda.",
+      "role": "管理員",
       "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
       "discord": "peacekeeper",
-      "description": "第一時間回應街頭問題",
+      "description": "第一時間回應玩家問題&城內卡BUG救援",
       "badge": "MOD",
       "status": "active"
     }
@@ -654,17 +654,17 @@
   },
   "social": {
     "discord": "https://discord.gg/GF54979JNR",
-    "twitter": "https://twitter.com/nightcityrp",
-    "youtube": "https://youtube.com/@nightcityrp",
-    "tiktok": "https://tiktok.com/@nightcityrp",
-    "instagram": "https://instagram.com/nightcityrp",
-    "twitch": "https://twitch.tv/nightcityrp",
+    "twitter": null,
+    "youtube": null,
+    "tiktok": null,
+    "instagram": "https://www.instagram.com/arkproject.2024/",
+    "twitch": null,
     "teamspeak": null,
     "forum": null
   },
   "whitelist": {
     "enabled": true,
-    "applicationUrl": "https://apply.nightcity-rp.com",
+    "applicationUrl": "https://discord.gg/GF54979JNR",
     "requirements": [
       "年齡至少 16 歲",
       "需有可用麥克風",
