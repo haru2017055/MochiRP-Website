@@ -81,231 +81,228 @@
       "galleryThumbnail": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop"
     }
   },
-"ui": {
-  "hero": {
-    "graffiti": "通緝",
-    "loadingText": "載入中...",
-    "statusLabels": {
-      "status": "狀態",
-      "players": "玩家",
-      "server": "伺服器",
-      "online": "在線",
-      "offline": "離線"
+  "ui": {
+    "hero": {
+      "graffiti": "WANTED",
+      "loadingText": "Loading...",
+      "statusLabels": {
+        "status": "Status",
+        "players": "Players",
+        "server": "Server",
+        "online": "ONLINE",
+        "offline": "OFFLINE"
+      }
+    },
+    "features": {
+      "sectionTag": "Why Choose Us",
+      "title": "Server",
+      "titleAccent": "Features",
+      "highlight": "256+ SLOT SERVER • CUSTOM SCRIPTS • 24/7 UPTIME"
+    },
+    "jobs": {
+      "sectionTag": "Opportunities",
+      "title": "Make Your",
+      "titleAccent": "Living",
+      "subtitle": "Choose your path in Los Santos. Legal or illegal, the choice is yours.",
+      "categoriesTitle": "Categories",
+      "allJobsLabel": "All Jobs",
+      "totalJobsLabel": "Total Jobs",
+      "salaryRangeLabel": "Salary Range",
+      "applyButtonText": "APPLY NOW",
+      "salaryPrefix": "Starting",
+      "graffitiText": "FOLLOW THE RULES",
+      "salarySymbols": {
+        "low": "$",
+        "medium": "$$",
+        "high": "$$$",
+        "veryHigh": "$$$$"
+      },
+      "salaryThresholds": {
+        "medium": 200,
+        "high": 350,
+        "veryHigh": 450
+      }
+    },
+    "rules": {
+      "sectionTag": "MANDATORY",
+      "title": "Know The",
+      "titleAccent": "Rules",
+      "subtitle": "Break these and face the consequences. We run a tight ship here.",
+      "graffiti": "RESPECT THE CODE",
+      "footer": "Play Fair or Get Banned",
+      "severityLabels": {
+        "high": "high priority",
+        "medium": "medium priority",
+        "low": "low priority"
+      }
+    },
+    "team": {
+      "sectionTag": "CLASSIFIED",
+      "title": "The",
+      "titleAccent": "Crew",
+      "subtitle": "The ones who keep the streets in check. Know their faces, respect their authority.",
+      "casePrefix": "CASE #",
+      "aliasPrefix": "ALIAS:",
+      "topBrassStamp": "TOP BRASS",
+      "joinTitle": "Join The Crew",
+      "joinSubtitle": "Think you got what it takes to run with us?",
+      "joinButton": "APPLY ON DISCORD"
+    },
+    "gallery": {
+      "sectionTag": "EVIDENCE",
+      "title": "Evidence",
+      "titleAccent": "Locker",
+      "subtitle": "Photographic evidence from the streets. Handle with care.",
+      "evidencePrefix": "EVIDENCE #",
+      "loadMore": "LOAD MORE EVIDENCE",
+      "featuredBadge": "HOT"
+    },
+    "footer": {
+      "graffitiTop": "RESPECT",
+      "graffitiBottom": "THE STREETS",
+      "establishedPrefix": "EST.",
+      "sections": {
+        "navigation": "Navigation",
+        "serverStats": "Server Stats",
+        "connect": "Connect"
+      },
+      "statsLabels": {
+        "players": "Players",
+        "activeGangs": "Active Gangs",
+        "businesses": "Businesses"
+      },
+      "serverConnection": "Server Connection",
+      "onlineStatus": "Online",
+      "disclaimer": "Not affiliated with Rockstar Games or Take-Two Interactive."
+    },
+    "navigation": {
+      "menuItems": ["Features", "Jobs", "Rules", "Team", "Gallery"],
+      "connectButton": "CONNECT",
+      "discordButton": "DISCORD",
+      "serverCopyMessage": "Server IP copied:",
+      "onlineText": "Online",
+      "offlineText": "Offline"
+    },
+    "common": {
+      "playNow": "PLAY NOW",
+      "discord": "DISCORD",
+      "loading": "Loading...",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies"
     }
   },
-  "features": {
-    "sectionTag": "為什麼選擇我們",
-    "title": "伺服器",
-    "titleAccent": "特色",
-    "highlight": "256+ 人數伺服器 • 自訂腳本 • 24/7 穩定運行"
-  },
-  "jobs": {
-    "sectionTag": "工作機會",
-    "title": "打造你的",
-    "titleAccent": "生活",
-    "subtitle": "在洛聖都選擇你的道路。合法或非法，由你決定。",
-    "categoriesTitle": "分類",
-    "allJobsLabel": "所有職業",
-    "totalJobsLabel": "總職業數",
-    "salaryRangeLabel": "薪資範圍",
-    "applyButtonText": "立即申請",
-    "salaryPrefix": "起薪",
-    "graffitiText": "遵守規則",
-    "salarySymbols": {
-      "low": "$",
-      "medium": "$$",
-      "high": "$$$",
-      "veryHigh": "$$$$"
-    },
-    "salaryThresholds": {
-      "medium": 200,
-      "high": 350,
-      "veryHigh": 450
-    }
-  },
-  "rules": {
-    "sectionTag": "強制規範",
-    "title": "了解",
-    "titleAccent": "規則",
-    "subtitle": "違反規則將承擔後果。我們的街區嚴格管制。",
-    "graffiti": "尊重規範",
-    "footer": "公平遊玩，否則封禁",
-    "severityLabels": {
-      "high": "高優先級",
-      "medium": "中優先級",
-      "low": "低優先級"
-    }
-  },
-  "team": {
-    "sectionTag": "機密",
-    "title": "我們的",
-    "titleAccent": "團隊",
-    "subtitle": "維持街頭秩序的人們。記住他們的臉孔，尊重他們的權威。",
-    "casePrefix": "案件號 #",
-    "aliasPrefix": "代號：",
-    "topBrassStamp": "高層",
-    "joinTitle": "加入我們",
-    "joinSubtitle": "覺得你有實力和我們一起打拼嗎？",
-    "joinButton": "前往 Discord 申請"
-  },
-  "gallery": {
-    "sectionTag": "證據庫",
-    "title": "證據",
-    "titleAccent": "檔案櫃",
-    "subtitle": "街頭留下的影像證據。請小心查看。",
-    "evidencePrefix": "證據編號 #",
-    "loadMore": "載入更多證據",
-    "featuredBadge": "熱門"
-  },
-  "footer": {
-    "graffitiTop": "尊重",
-    "graffitiBottom": "街頭",
-    "establishedPrefix": "創立於",
-    "sections": {
-      "navigation": "導覽",
-      "serverStats": "伺服器數據",
-      "connect": "連線"
-    },
-    "statsLabels": {
-      "players": "玩家",
-      "activeGangs": "活躍幫派",
-      "businesses": "商業據點"
-    },
-    "serverConnection": "伺服器連線",
-    "onlineStatus": "在線",
-    "disclaimer": "本伺服器與 Rockstar Games 或 Take-Two Interactive 無任何關聯。"
-  },
-  "navigation": {
-    "menuItems": ["特色", "職業", "規則", "團隊", "圖庫"],
-    "connectButton": "連線",
-    "discordButton": "Discord",
-    "serverCopyMessage": "伺服器 IP 已複製：",
-    "onlineText": "在線",
-    "offlineText": "離線"
-  },
-  "common": {
-    "playNow": "立即遊玩",
-    "discord": "Discord",
-    "loading": "載入中...",
-    "privacy": "隱私政策",
-    "terms": "服務條款",
-    "cookies": "Cookies"
-  }
-},
-
   "features": [
     {
       "id": "custom-framework",
-      "title": "自訂框架",
-      "description": "從零打造，提供最佳效能與獨特的遊戲體驗",
+      "title": "Custom Framework",
+      "description": "Built from scratch for optimal performance and unique gameplay",
       "icon": "Code2",
       "highlight": true
     },
     {
       "id": "gang-system",
-      "title": "幫派地盤",
-      "description": "控制地盤、管理運作，並守護你的地區",
+      "title": "Gang Territories",
+      "description": "Control turfs, manage operations, and defend your hood",
       "icon": "Users",
       "highlight": true
     },
     {
       "id": "economy",
-      "title": "街頭經濟",
-      "description": "靠毒品、武器與黑市交易拼搏生存",
+      "title": "Street Economy",
+      "description": "Hustle hard with drugs, weapons, and black market trading",
       "icon": "DollarSign",
       "highlight": false
     },
     {
       "id": "housing",
-      "title": "房產與藏匿點",
-      "description": "從窩點到豪華頂層公寓，擁有屬於你的房產",
+      "title": "Cribs & Stash",
+      "description": "Own properties from trap houses to penthouses",
       "icon": "Home",
       "highlight": false
     },
     {
       "id": "vehicles",
-      "title": "300+ 輛座駕",
-      "description": "從低底盤改裝車到超跑的專屬車庫",
+      "title": "300+ Whips",
+      "description": "Custom rides from lowriders to supercars",
       "icon": "Car",
       "highlight": false
     },
     {
       "id": "heists",
-      "title": "銀行搶劫",
-      "description": "與你的團隊計畫並執行精心設計的搶劫行動",
+      "title": "Bank Heists",
+      "description": "Plan and execute elaborate robberies with your crew",
       "icon": "Lock",
       "highlight": true
     }
   ],
-
   "gallery": {
     "images": [
       { 
         "id": 1, 
         "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop", 
-        "alt": "城市夜景", 
-        "title": "洛聖都市中心",
+        "alt": "City skyline at night", 
+        "title": "Downtown Los Santos",
         "category": "locations",
         "featured": true
       },
       { 
         "id": 2, 
         "src": "https://images.unsplash.com/photo-1593280405106-e438ebe93f5b?w=800&h=600&fit=crop", 
-        "alt": "警匪追逐場景", 
-        "title": "高速追逐",
+        "alt": "Police chase scene", 
+        "title": "High Speed Chase",
         "category": "action",
         "featured": true
       },
       { 
         "id": 3, 
         "src": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&h=600&fit=crop", 
-        "alt": "車聚活動", 
-        "title": "每週車聚",
+        "alt": "Car meet event", 
+        "title": "Weekly Car Meet",
         "category": "events",
         "featured": false
       },
       { 
         "id": 4, 
         "src": "https://images.unsplash.com/photo-1547447134-cd3f5c716030?w=800&h=600&fit=crop", 
-        "alt": "賽車比賽", 
-        "title": "街頭競速",
+        "alt": "Racing event", 
+        "title": "Street Racing",
         "category": "events",
         "featured": true
       },
       { 
         "id": 5, 
         "src": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop", 
-        "alt": "角色扮演場景", 
-        "title": "銀行搶劫 RP",
+        "alt": "Roleplay scenario", 
+        "title": "Bank Heist RP",
         "category": "roleplay",
         "featured": true
       },
       { 
         "id": 6, 
         "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop", 
-        "alt": "社群聚會", 
-        "title": "社群活動",
+        "alt": "Community gathering", 
+        "title": "Community Event",
         "category": "events",
         "featured": false
       },
       { 
         "id": 7, 
         "src": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop", 
-        "alt": "自訂車輛", 
-        "title": "改裝名車",
+        "alt": "Custom vehicles", 
+        "title": "Custom Rides",
         "category": "vehicles",
         "featured": true
       },
       { 
         "id": 8, 
         "src": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop", 
-        "alt": "伺服器活動", 
-        "title": "特別活動",
+        "alt": "Server event", 
+        "title": "Special Event",
         "category": "events",
         "featured": false
       }
     ],
-
     "categories": [
       { "id": "all", "name": "全部" },
       { "id": "locations", "name": "地點" },
