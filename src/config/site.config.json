@@ -118,9 +118,9 @@
         "veryHigh": "$$$$"
       },
       "salaryThresholds": {
-        "medium": 200,
-        "high": 350,
-        "veryHigh": 450
+        "medium": 300,
+        "high": 500,
+        "veryHigh": 600
       }
     },
     "rules": {
@@ -404,7 +404,7 @@
         "category": "emergency",
         "description": "保護並服務城市，維持法律與秩序",
         "requirements": ["無犯罪紀錄", "需面試"],
-        "salary": 300,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
       },
       {
@@ -413,17 +413,8 @@
         "category": "government",
         "description": "拯救生命並在提供醫療照護(特別劇情才會出沒)",
         "requirements": ["無犯罪紀錄", "需面試"],
-        "salary": 250,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "mechanic",
-        "name": "技工",
-        "category": "mechanic",
-        "description": "維修車輛並為街頭改裝座駕",
-        "requirements": ["無需條件", "提供訓練"],
-        "salary": 150,
-        "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=400&fit=crop"
       },
       {
         "id": "taxi",
@@ -431,7 +422,7 @@
         "category": "business",
         "description": "採收不同的材料經營物資生意!",
         "requirements": ["無需條件"],
-        "salary": 100,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
       },
       {
@@ -440,7 +431,7 @@
         "category": "criminal",
         "description": "販售非法產品並掌控地盤",
         "requirements": ["街頭名聲", "幫派關係"],
-        "salary": 500,
+        "salary": 600,
         "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
       },
       {
@@ -449,7 +440,7 @@
         "category": "criminal",
         "description": "為不法分子提供武器",
         "requirements": ["具備人脈", "可信任等級"],
-        "salary": 500,
+        "salary": 600,
         "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
       },
       {
@@ -458,7 +449,7 @@
         "category": "criminal",
         "description": "為不法分子提供各種非法物資或材料",
         "requirements": ["具備人脈", "可信任等級"],
-        "salary": 500,
+        "salary": 600,
         "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
       },
       {
@@ -485,7 +476,7 @@
         "category": "business",
         "description": "誰說只有開店才能賺錢!我們餐車也能闖出一片天!",
         "requirements": ["無需條件", "有$$就行"],
-        "salary": 350,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
       },
       {
@@ -494,7 +485,7 @@
         "category": "business",
         "description": "做做小生意賺取金錢",
         "requirements": ["無需條件", "有$$就行"],
-        "salary": 350,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
       },
       {
@@ -503,7 +494,7 @@
         "category": "government",
         "description": "決定洛聖都罪犯的命運(特別劇情才會出沒)",
         "requirements": ["法律經驗", "需提交申請"],
-        "salary": 500,
+        "salary": 600,
         "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
       },
       {
@@ -512,7 +503,7 @@
         "category": "government",
         "description": "為洛聖都罪犯改變命運(特別劇情才會出沒)",
         "requirements": ["法律經驗", "需提交申請"],
-        "salary": 500,
+        "salary": 600,
         "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
       },
       {
@@ -521,7 +512,7 @@
         "category": "government",
         "description": "在醫院提供進階醫療服務(特別劇情才會出沒)",
         "requirements": ["醫師執照", "需有經驗"],
-        "salary": 400,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
       },
       {
@@ -530,7 +521,7 @@
         "category": "government",
         "description": "協助醫生並照顧病人(特別劇情才會出沒)",
         "requirements": ["需有經驗", "提供訓練"],
-        "salary": 200,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
       {
@@ -539,7 +530,7 @@
         "category": "civilian",
         "description": "賣藝演出成就你的巨星之路!",
         "requirements": ["無需條件"],
-        "salary": 200,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
       {
@@ -548,7 +539,7 @@
         "category": "civilian",
         "description": "想不想當包租公包租婆?",
         "requirements": ["無需條件", "有$$就行"],
-        "salary": 200,
+        "salary": 600,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
       {
@@ -557,7 +548,7 @@
         "category": "civilian",
         "description": "帶市民逛遍城市大小景點!",
         "requirements": ["無需條件", "有車就行"],
-        "salary": 200,
+        "salary": 400,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
       {
@@ -566,7 +557,7 @@
         "category": "will",
         "description": "各種賭博玩法應有盡有!",
         "requirements": ["無需條件", "需自費購買插件&地圖"],
-        "salary": 500,
+        "salary": 600,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
       {
@@ -602,7 +593,7 @@
         "category": "mechanic",
         "description": "為市民修理他們的愛車!",
         "requirements": ["無需條件", "提供訓練"],
-        "salary": 180,
+        "salary": 350,
         "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
       }
     ]
