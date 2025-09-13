@@ -197,14 +197,14 @@
     {
       "id": "custom-framework",
       "title": "好玩的半RP框架",
-      "description": "符合現代遊玩生態的遊玩模式，輕鬆不困難不硬核",
+      "description": "符合現代遊玩生態的遊玩模式，輕鬆、不困難、不硬核",
       "icon": "Code2",
       "highlight": true
     },
     {
       "id": "gang-system",
       "title": "幫派地盤",
-      "description": "控制地盤、管理運作，並守護你的勢力範圍",
+      "description": "管理好自己的地盤並守護你的勢力範圍",
       "icon": "Users",
       "highlight": true
     },
@@ -384,8 +384,8 @@
         "legal": true
       },
       {
-        "id": "medical",
-        "name": "醫療",
+        "id": "will",
+        "name": "未來開放",
         "color": "green",
         "legal": true
       },
@@ -540,6 +540,60 @@
         "description": "賣藝演出成就你的巨星之路!",
         "requirements": ["無需條件"],
         "salary": 200,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "house",
+        "name": "房東",
+        "category": "civilian",
+        "description": "想不想當包租公包租婆?",
+        "requirements": ["無需條件", "有$$就行"],
+        "salary": 200,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "ride",
+        "name": "旅遊業者",
+        "category": "civilian",
+        "description": "帶市民逛遍城市大小景點!",
+        "requirements": ["無需條件", "有車就行"],
+        "salary": 200,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "will1",
+        "name": "鑽石賭場",
+        "category": "will",
+        "description": "各種賭博玩法應有盡有!",
+        "requirements": ["無需條件", "需自費購買插件&地圖"],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "will2",
+        "name": "酒吧/夜店",
+        "category": "will",
+        "description": "提供各式調酒以及精彩的夜生活!",
+        "requirements": ["無需條件", "需自費購買插件&地圖"],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "will3",
+        "name": "第3間餐廳",
+        "category": "will",
+        "description": "為城市提供更多的餐飲選擇!",
+        "requirements": ["無需條件", "需自費購買插件&地圖"],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "will4",
+        "name": "醫護局",
+        "category": "will",
+        "description": "為城市提供專業的醫療服務!",
+        "requirements": ["有一顆熱愛醫護工作的心", "需自費購買地圖"],
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
       {
