@@ -334,7 +334,7 @@
         "title": "貪柴工坊",
         "category": "locations",
         "featured": true
-      },
+      }
     ],
     "categories": [
       { "id": "all", "name": "全部" },
