@@ -15,7 +15,7 @@ const navItems = [
   {
     id: "donations",
     label: "Donate",
-    href: "#donations",
+    href: siteConfig.donations?.paypalUrl || "#",
     icon: <Heart className="w-5 h-5 text-red-500" />
   }
 ]
