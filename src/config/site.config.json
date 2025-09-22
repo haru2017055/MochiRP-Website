@@ -196,9 +196,9 @@
   "features": [
     {
       "id": "custom",
-      "title": "認真的管理團隊",
+      "title": "認真用心的管理團隊",
       "description": "擁有多年管理經驗，認真、公平、不濫權!",
-      "icon": "Users",
+      "icon": "user-star",
       "highlight": true
     },
     {
