@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger, smoothScrollTo } from '../../lib/gsap-config'
-import { Home, Briefcase, Shield, Users, Image, ScrollText } from 'lucide-react'
+import { Home, Briefcase, Shield, Users, Image, ScrollText, Heart } from 'lucide-react'
 import siteConfig from '../../config/site.config.json'
 import { BottomNavigation } from './BottomNavigation'
 
@@ -11,7 +11,13 @@ const navItems = [
   { id: 'jobs', label: 'Jobs', href: '#jobs', icon: <Briefcase className="w-5 h-5" /> },
   { id: 'rules', label: 'Rules', href: '#rules', icon: <ScrollText className="w-5 h-5" /> },
   { id: 'team', label: 'Team', href: '#team', icon: <Users className="w-5 h-5" /> },
-  { id: 'gallery', label: 'Gallery', href: '#gallery', icon: <Image className="w-5 h-5" /> }
+  { id: 'gallery', label: 'Gallery', href: '#gallery', icon: <Image className="w-5 h-5" /> },
+  { 
+    id: 'donate', 
+    label: 'Donate', 
+    href: (siteConfig.ui?.donate && siteConfig.ui.donate.link) || '#',
+    icon: <Heart className="w-5 h-5 text-red-500" /> 
+  }
 ]
 
 export const Navigation = () => {

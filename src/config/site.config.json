@@ -136,6 +136,9 @@
         "low": "低優先級"
       }
     },
+    "donate": {
+      "link": "https://your-donate-link.com"
+    },
     "team": {
       "sectionTag": "機密",
       "title": "我們的",
@@ -198,7 +201,7 @@
       "id": "custom",
       "title": "認真用心的管理團隊",
       "description": "擁有多年管理經驗，認真、公平、不濫權!",
-      "icon": "User-star",
+      "icon": "UserStar",
       "highlight": true
     },
     {
@@ -212,7 +215,7 @@
       "id": "gang-system",
       "title": "大量特色玩法",
       "description": "很多特色玩法只有在這裡才體驗得到!",
-      "icon": "Thumbs-up",
+      "icon": "ThumbsUp",
       "highlight": true
     },
     {
@@ -226,7 +229,7 @@
       "id": "vehicles-race",
       "title": "賽車系統",
       "description": "有不同的賽道以及多樣化的賽車玩法",
-      "icon": "Circle-star",
+      "icon": "Crown",
       "highlight": false
     },
     {
@@ -240,7 +243,7 @@
       "id": "economy1",
       "title": "開放創業",
       "description": "開放自由創業!小至攤販大至企業，只要你提交完善規劃都有得談!",
-      "icon": "DollarSign",
+      "icon": "BadgeDollarSign",
       "highlight": false
     },
     {
@@ -252,9 +255,16 @@
     },
     {
       "id": "heists",
+      "title": "每日小活動",
+      "description": "每天隨機時間都會出現一些小活動或是小挑戰給大家參與！",
+      "icon": "CalendarClock",
+      "highlight": true
+    },
+    {
+      "id": "heists",
       "title": "每月活動",
       "description": "每月第二個和第四個星期六都會舉辦活動！踴躍參與贏得獎勵！",
-      "icon": "Calendar-check",
+      "icon": "CalendarCheck",
       "highlight": true
     }
   ],
