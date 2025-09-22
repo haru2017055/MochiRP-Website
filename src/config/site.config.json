@@ -212,9 +212,23 @@
       "highlight": true
     },
     {
+      "id": "mumu",
+      "title": "強大的技術組",
+      "description": "快速debug和持續更新",
+      "icon": "BugOff",
+      "highlight": true
+    },
+    {
       "id": "gang-system",
       "title": "大量特色玩法",
       "description": "很多特色玩法只有在這裡才體驗得到!",
+      "icon": "ThumbsUp",
+      "highlight": true
+    },
+    {
+      "id": "heart",
+      "title": "共同集資",
+      "description": "如果有什麼想要體驗的插件都歡迎建議給我們!我們會主導招募有興趣體驗的玩家集資!",
       "icon": "ThumbsUp",
       "highlight": true
     },
@@ -244,6 +258,13 @@
       "title": "開放創業",
       "description": "開放自由創業!小至攤販大至企業，只要你提交完善規劃都有得談!",
       "icon": "BadgeDollarSign",
+      "highlight": false
+    },
+    {
+      "id": "vehicles",
+      "title": "100+ 輛高級精緻座駕",
+      "description": "從低底盤車到超跑，盡情享受自訂改裝",
+      "icon": "Car",
       "highlight": false
     },
     {
