@@ -11,13 +11,7 @@ const navItems = [
   { id: 'jobs', label: 'Jobs', href: '#jobs', icon: <Briefcase className="w-5 h-5" /> },
   { id: 'rules', label: 'Rules', href: '#rules', icon: <ScrollText className="w-5 h-5" /> },
   { id: 'team', label: 'Team', href: '#team', icon: <Users className="w-5 h-5" /> },
-  { id: 'gallery', label: 'Gallery', href: '#gallery', icon: <Image className="w-5 h-5" /> },
-  {
-    id: "donations",
-    label: "Donate",
-    href: siteConfig.donations?.paypalUrl || "#",
-    icon: <Heart className="w-5 h-5 text-red-500" />
-  }
+  { id: 'gallery', label: 'Gallery', href: '#gallery', icon: <Image className="w-5 h-5" /> }
 ]
 
 export const Navigation = () => {
