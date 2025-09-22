@@ -12,11 +12,11 @@ const navItems = [
   { id: 'rules', label: 'Rules', href: '#rules', icon: <ScrollText className="w-5 h-5" /> },
   { id: 'team', label: 'Team', href: '#team', icon: <Users className="w-5 h-5" /> },
   { id: 'gallery', label: 'Gallery', href: '#gallery', icon: <Image className="w-5 h-5" /> },
-  { 
-    id: 'donate', 
-    label: 'Donate', 
-    href: (siteConfig.ui?.donate && siteConfig.ui.donate.link) || '#',
-    icon: <Heart className="w-5 h-5 text-red-500" /> 
+  {
+    id: "donate",
+    label: siteConfig.donations?.title || "Donate",
+    href: siteConfig.donations?.link || "#",
+    icon: <Heart className="w-5 h-5 text-red-500" />
   }
 ]
 
