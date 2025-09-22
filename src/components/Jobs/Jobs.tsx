@@ -88,7 +88,7 @@ export const Jobs = () => {
             {siteConfig.ui?.jobs?.sectionTag || 'Career Opportunities'}
           </span>
           <h2 className="font-stencil text-4xl md:text-6xl text-street-white uppercase text-shadow-brutal mb-4">
-            {siteConfig.ui?.jobs?.title || 'Choose Your'} <span className="gradient-gold">{siteConfig.ui?.jobs?.titleAccent || 'Path'}</span>
+            {siteConfig.ui?.jobs?.title || 'Choose Your'} <span className="text-gang-gold">{siteConfig.ui?.jobs?.titleAccent || 'Path'}</span>
           </h2>
           <div className="w-24 h-1 bg-gang-purple mx-auto" />
         </div>
