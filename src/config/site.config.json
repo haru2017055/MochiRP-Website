@@ -198,7 +198,7 @@
       "id": "custom",
       "title": "認真用心的管理團隊",
       "description": "擁有多年管理經驗，認真、公平、不濫權!",
-      "icon": "user-star",
+      "icon": "User-star",
       "highlight": true
     },
     {
@@ -212,7 +212,7 @@
       "id": "gang-system",
       "title": "大量特色玩法",
       "description": "很多特色玩法只有在這裡才體驗得到!",
-      "icon": "Users",
+      "icon": "Thumbs-up",
       "highlight": true
     },
     {
@@ -226,7 +226,7 @@
       "id": "vehicles-race",
       "title": "賽車系統",
       "description": "有不同的賽道以及多樣化的賽車玩法",
-      "icon": "Car",
+      "icon": "Circle-star",
       "highlight": false
     },
     {
@@ -254,7 +254,7 @@
       "id": "heists",
       "title": "每月活動",
       "description": "每月第二個和第四個星期六都會舉辦活動！踴躍參與贏得獎勵！",
-      "icon": "Lock",
+      "icon": "Calendar-check",
       "highlight": true
     }
   ],
