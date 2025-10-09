@@ -1,25 +1,18 @@
 {
   "seo": {
-    "title": "MochiRP｜台灣 FiveM RP 伺服器・你的故事從這裡開始",
-    "shortTitle": "你今天麻糬了嗎？",
-    "description": "MochiRP 是一座充滿自由與可能性的 GTA5 FiveM RP 城市。細膩生活系統、豐富職業、真實經濟、沉浸劇情兼具——從街頭小人物到企業老闆，每個選擇都能改寫你的命運。",
+    "title": "MochiRP - GTA V FiveM 50%RP 伺服器",
+    "shortTitle": "你今天麻糬了嗎?｜MochiRP",
+    "description": "加入我們用心經營的 GTA V FiveM 角色扮演伺服器。大量高質量模組車、25+ 合法賺錢方式、輕鬆遊玩，簡單審核，立即申請白名單！",
     "keywords": [
+      "FiveM", 
+      "GTA V", 
+      "角色扮演", 
+      "RP 伺服器", 
+      "GTA RP", 
+      "FiveM 伺服器", 
       "遊戲社群",
-      "RP 城市",
-      "台灣RP伺服器",
       "洛聖都",
-      "MochiRP",
-      "FiveM RP",
-      "FiveM",
-      "FiveM 伺服器",
-      "GTA V",
-      "白名單伺服器",
-      "生活伺服器",
-      "台灣 GTA RP",
-      "RP 伺服器",
-      "GTA5 RP",
-      "GTA RP",
-      "角色扮演"
+      "白名單伺服器"
     ],
     "ogImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&h=630&fit=crop",
     "twitterCard": "summary_large_image",
@@ -49,9 +42,9 @@
   "server": {
     "name": "MochiRP",
     "shortName": "MCRP",
-    "tagline": "故事在此展開｜從街頭到豪宅，從無名到傳奇",
-    "slogan": "在這座城市，選擇決定你的命運。",
-    "description": "一個由玩家驅動的沉浸式 RP 城市：真實經濟、多元職涯與創業系統、每日活動與隨機事件，讓每次登入都是全新體驗。",
+    "tagline": "故事在此展開",
+    "slogan": "從街頭到豪宅",
+    "description": "體驗用心打造的 GTA V 50%RP 伺服器，我們擁有用心的團隊、活躍的社群，以及無限可能性！",
     "ip": "play.nightcity-rp.com",
     "port": "3457",
     "discord": "https://discord.gg/GF54979JNR",
@@ -69,12 +62,13 @@
       "businesses": "4"
     },
     "loadingTips": [
-      "尊重他人，是成為市民的第一步。",
-      "金錢能說話，但尊重更有價值。",
-      "每個決定，都是一段新故事的開始。",
-      "警察不只是制服，更是秩序的象徵。",
-      "醫療人員值得信任——他們是生命的延續者。",
-      "別忘了，城市裡每個人都有自己的故事。"
+      "非娛樂性半RP模式輕鬆遊玩",
+      "好玩輕鬆玩但不能亂玩",
+      "加入我們的 Discord 以獲取最新消息",
+      "高品質的角色扮演總是會被獎勵",
+      "尊重地盤 - 瞭解幫派的勢力範圍",
+      "金錢能說話，但尊重更重要",
+      "每個故事都從底層開始"
     ]
   },
   "images": {
@@ -90,7 +84,7 @@
   "ui": {
     "hero": {
       "graffiti": "WANTED",
-      "loadingText": "城市載入中，請準備你的新人生...",
+      "loadingText": "載入中...",
       "statusLabels": {
         "status": "狀態",
         "players": "玩家",
@@ -103,7 +97,7 @@
       "sectionTag": "為什麼選擇我們",
       "title": "伺服器",
       "titleAccent": "特色",
-      "highlight": "玩家驅動經濟 • 自研系統 • 穩定順暢 80+ 人伺服器"
+      "highlight": "80+ 人伺服器 • 大量國外高質插件地圖 • 自寫插件"
     },
     "jobs": {
       "sectionTag": "職涯機會",
@@ -179,19 +173,14 @@
         "players": "玩家",
         "activeGangs": "活躍幫派",
         "businesses": "商業機構"
+
       },
       "serverConnection": "伺服器連線",
       "onlineStatus": "運作中",
       "disclaimer": "與 Rockstar Games 或 Take-Two Interactive 無關。"
     },
     "navigation": {
-      "menuItems": [
-        "特色功能",
-        "職業",
-        "規則",
-        "團隊",
-        "相簿"
-      ],
+      "menuItems": ["特色功能", "職業", "規則", "團隊", "相簿"],
       "connectButton": "連線",
       "discordButton": "Discord",
       "serverCopyMessage": "伺服器 IP 已複製：",
@@ -211,7 +200,7 @@
     {
       "id": "custom",
       "title": "認真用心的管理團隊",
-      "description": "擁有多年管理經驗，認真、公平、不濫權！",
+      "description": "擁有多年管理經驗，認真、公平、不濫權!",
       "icon": "UserStar",
       "highlight": true
     },
@@ -232,14 +221,14 @@
     {
       "id": "gang-system",
       "title": "大量特色玩法",
-      "description": "很多特色玩法只有在這裡才體驗得到！",
+      "description": "很多特色玩法只有在這裡才體驗得到!",
       "icon": "ThumbsUp",
       "highlight": true
     },
     {
       "id": "heart",
       "title": "共同集資",
-      "description": "如果有什麼想要體驗的插件都歡迎建議給我們！我們會主導招募有興趣體驗的玩家集資！",
+      "description": "如果有什麼想要體驗的插件都歡迎建議給我們!我們會主導招募有興趣體驗的玩家集資!",
       "icon": "ThumbsUp",
       "highlight": true
     },
@@ -260,14 +249,14 @@
     {
       "id": "housing",
       "title": "房產與藏匿點",
-      "description": "城鎮有700+ 棟房產！從毒窟到豪宅，購買並擁有各類房產！而且有非常多的隱藏地圖！",
+      "description": "城鎮有700+ 棟房產！從毒窟到豪宅，購買並擁有各類房產！而且有非常多的隱藏地圖!",
       "icon": "Home",
       "highlight": false
     },
     {
       "id": "economy1",
       "title": "開放創業",
-      "description": "開放自由創業！小至攤販大至企業，只要你提交完善規劃都有得談！",
+      "description": "開放自由創業!小至攤販大至企業，只要你提交完善規劃都有得談!",
       "icon": "BadgeDollarSign",
       "highlight": false
     },
@@ -295,128 +284,110 @@
   ],
   "gallery": {
     "images": [
-      {
-        "id": 1,
-        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
-        "alt": "夜晚的城市天際線",
+      { 
+        "id": 1, 
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop", 
+        "alt": "夜晚的城市天際線", 
         "title": "警政署",
         "category": "locations",
         "featured": true
       },
-      {
-        "id": 2,
-        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
-        "alt": "警政署",
+		{ 
+        "id": 2, 
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop", 
+        "alt": "警政署", 
         "title": "醫護局",
         "category": "locations",
         "featured": true
       },
-      {
-        "id": 3,
-        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
-        "alt": "夜晚的城市天際線",
+		{ 
+        "id": 3, 
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop", 
+        "alt": "夜晚的城市天際線", 
         "title": "海尋鼠",
         "category": "locations",
         "featured": true
       },
-      {
-        "id": 4,
-        "src": "https://images.unsplash.com/photo-1593280405106-e438ebe93f5b?w=800&h=600&fit=crop",
-        "alt": "警察追逐場景",
+      { 
+        "id": 4, 
+        "src": "https://images.unsplash.com/photo-1593280405106-e438ebe93f5b?w=800&h=600&fit=crop", 
+        "alt": "警察追逐場景", 
         "title": "高速追逐",
         "category": "action",
         "featured": true
       },
-      {
-        "id": 5,
-        "src": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&h=600&fit=crop",
-        "alt": "汽車聚會活動",
+      { 
+        "id": 5, 
+        "src": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&h=600&fit=crop", 
+        "alt": "汽車聚會活動", 
         "title": "每週車聚",
         "category": "events",
         "featured": false
       },
-      {
-        "id": 6,
-        "src": "https://images.unsplash.com/photo-1547447134-cd3f5c716030?w=800&h=600&fit=crop",
-        "alt": "賽車活動",
+      { 
+        "id": 6, 
+        "src": "https://images.unsplash.com/photo-1547447134-cd3f5c716030?w=800&h=600&fit=crop", 
+        "alt": "賽車活動", 
         "title": "街頭賽車",
         "category": "events",
         "featured": true
       },
-      {
-        "id": 7,
-        "src": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop",
-        "alt": "角色扮演場景",
+      { 
+        "id": 7, 
+        "src": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop", 
+        "alt": "角色扮演場景", 
         "title": "銀行搶劫 RP",
         "category": "roleplay",
         "featured": true
       },
-      {
-        "id": 8,
-        "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop",
-        "alt": "社區聚會",
+      { 
+        "id": 8, 
+        "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop", 
+        "alt": "社區聚會", 
         "title": "社區活動",
         "category": "events",
         "featured": false
       },
-      {
-        "id": 9,
-        "src": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
-        "alt": "改裝車輛",
+      { 
+        "id": 9, 
+        "src": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop", 
+        "alt": "改裝車輛", 
         "title": "客製化座駕",
         "category": "vehicles",
         "featured": true
       },
-      {
-        "id": 10,
-        "src": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
-        "alt": "伺服器活動",
+      { 
+        "id": 10, 
+        "src": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop", 
+        "alt": "伺服器活動", 
         "title": "特別活動",
         "category": "events",
         "featured": false
       },
-      {
-        "id": 11,
-        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
-        "alt": "夜晚的城市天際線",
+		{ 
+        "id": 11, 
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop", 
+        "alt": "夜晚的城市天際線", 
         "title": "喵喵喵",
         "category": "locations",
         "featured": true
       },
-      {
-        "id": 12,
-        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
-        "alt": "夜晚的城市天際線",
+		{ 
+        "id": 12, 
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop", 
+        "alt": "夜晚的城市天際線", 
         "title": "貪柴工坊",
         "category": "locations",
         "featured": true
       }
     ],
     "categories": [
-      {
-        "id": "all",
-        "name": "全部"
-      },
-      {
-        "id": "locations",
-        "name": "特別地點"
-      },
-      {
-        "id": "action",
-        "name": "精彩片段"
-      },
-      {
-        "id": "events",
-        "name": "活動"
-      },
-      {
-        "id": "roleplay",
-        "name": "劇情片段"
-      },
-      {
-        "id": "vehicles",
-        "name": "車輛"
-      }
+      { "id": "all", "name": "全部" },
+      { "id": "locations", "name": "特別地點" },
+      { "id": "action", "name": "精彩片段" },
+      { "id": "events", "name": "活動" },
+      { "id": "roleplay", "name": "劇情片段" },
+      { "id": "vehicles", "name": "車輛" }
     ]
   },
   "jobs": {
@@ -469,17 +440,15 @@
         "color": "orange",
         "legal": true
       }
+
     ],
-    "list": [
+"list": [
       {
         "id": "police",
         "name": "警察",
         "category": "emergency",
         "description": "保護並服務城市，維持法律與秩序",
-        "requirements": [
-          "無犯罪紀錄",
-          "需面試"
-        ],
+        "requirements": ["無犯罪紀錄", "需面試"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
       },
@@ -488,10 +457,7 @@
         "name": "急救人員",
         "category": "government",
         "description": "拯救生命並在提供醫療照護(特別劇情才會出沒)",
-        "requirements": [
-          "無犯罪紀錄",
-          "需面試"
-        ],
+        "requirements": ["無犯罪紀錄", "需面試"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
       },
@@ -500,9 +466,7 @@
         "name": "材料商",
         "category": "business",
         "description": "採收不同的材料經營物資生意!",
-        "requirements": [
-          "無需條件"
-        ],
+        "requirements": ["無需條件"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
       },
@@ -511,10 +475,7 @@
         "name": "毒販",
         "category": "criminal",
         "description": "販售非法產品並掌控地盤",
-        "requirements": [
-          "街頭名聲",
-          "幫派關係"
-        ],
+        "requirements": ["街頭名聲", "幫派關係"],
         "salary": 600,
         "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
       },
@@ -523,10 +484,7 @@
         "name": "軍火商",
         "category": "criminal",
         "description": "為不法分子提供武器",
-        "requirements": [
-          "具備人脈",
-          "可信任等級"
-        ],
+        "requirements": ["具備人脈", "可信任等級"],
         "salary": 600,
         "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
       },
@@ -535,10 +493,7 @@
         "name": "非法材料商",
         "category": "criminal",
         "description": "為不法分子提供各種非法物資或材料",
-        "requirements": [
-          "具備人脈",
-          "可信任等級"
-        ],
+        "requirements": ["具備人脈", "可信任等級"],
         "salary": 600,
         "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
       },
@@ -547,10 +502,7 @@
         "name": "咖啡廳店員",
         "category": "business",
         "description": "幫助罪犯脫罪並賺取金錢",
-        "requirements": [
-          "無需條件",
-          "提供訓練"
-        ],
+        "requirements": ["無需條件", "提供訓練"],
         "salary": 350,
         "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
       },
@@ -559,10 +511,7 @@
         "name": "海鮮餐廳店員",
         "category": "business",
         "description": "幫助罪犯脫罪並賺取金錢",
-        "requirements": [
-          "無需條件",
-          "提供訓練"
-        ],
+        "requirements": ["無需條件", "提供訓練"],
         "salary": 350,
         "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
       },
@@ -571,10 +520,7 @@
         "name": "餐車老闆",
         "category": "business",
         "description": "誰說只有開店才能賺錢!我們餐車也能闖出一片天!",
-        "requirements": [
-          "無需條件",
-          "有$$就行"
-        ],
+        "requirements": ["無需條件", "有$$就行"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
       },
@@ -583,10 +529,7 @@
         "name": "便利店老闆",
         "category": "business",
         "description": "做做小生意賺取金錢",
-        "requirements": [
-          "無需條件",
-          "有$$就行"
-        ],
+        "requirements": ["無需條件", "有$$就行"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
       },
@@ -595,10 +538,7 @@
         "name": "法官",
         "category": "government",
         "description": "決定洛聖都罪犯的命運(特別劇情才會出沒)",
-        "requirements": [
-          "法律經驗",
-          "需提交申請"
-        ],
+        "requirements": ["法律經驗", "需提交申請"],
         "salary": 600,
         "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
       },
@@ -607,10 +547,7 @@
         "name": "律師",
         "category": "government",
         "description": "為洛聖都罪犯改變命運(特別劇情才會出沒)",
-        "requirements": [
-          "法律經驗",
-          "需提交申請"
-        ],
+        "requirements": ["法律經驗", "需提交申請"],
         "salary": 600,
         "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
       },
@@ -619,10 +556,7 @@
         "name": "醫生",
         "category": "government",
         "description": "在醫院提供進階醫療服務(特別劇情才會出沒)",
-        "requirements": [
-          "醫師執照",
-          "需有經驗"
-        ],
+        "requirements": ["醫師執照", "需有經驗"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
       },
@@ -631,10 +565,7 @@
         "name": "護士",
         "category": "government",
         "description": "協助醫生並照顧病人(特別劇情才會出沒)",
-        "requirements": [
-          "需有經驗",
-          "提供訓練"
-        ],
+        "requirements": ["需有經驗", "提供訓練"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
@@ -643,9 +574,7 @@
         "name": "街頭藝人",
         "category": "civilian",
         "description": "賣藝演出成就你的巨星之路!",
-        "requirements": [
-          "無需條件"
-        ],
+        "requirements": ["無需條件"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
@@ -654,10 +583,7 @@
         "name": "房東",
         "category": "civilian",
         "description": "想不想當包租公包租婆?",
-        "requirements": [
-          "無需條件",
-          "有$$就行"
-        ],
+        "requirements": ["無需條件", "有$$就行"],
         "salary": 600,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
@@ -666,10 +592,7 @@
         "name": "旅遊業者",
         "category": "civilian",
         "description": "帶市民逛遍城市大小景點!",
-        "requirements": [
-          "無需條件",
-          "有車就行"
-        ],
+        "requirements": ["無需條件", "有車就行"],
         "salary": 400,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
@@ -678,10 +601,7 @@
         "name": "鑽石賭場",
         "category": "will",
         "description": "各種賭博玩法應有盡有!",
-        "requirements": [
-          "無需條件",
-          "需自費購買插件&地圖"
-        ],
+        "requirements": ["無需條件", "需自費購買插件&地圖"],
         "salary": 600,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
@@ -690,10 +610,7 @@
         "name": "酒吧/夜店",
         "category": "will",
         "description": "提供各式調酒以及精彩的夜生活!",
-        "requirements": [
-          "無需條件",
-          "需自費購買插件&地圖"
-        ],
+        "requirements": ["無需條件", "需自費購買插件&地圖"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
@@ -702,10 +619,7 @@
         "name": "第3間餐廳",
         "category": "will",
         "description": "為城市提供更多的餐飲選擇!",
-        "requirements": [
-          "無需條件",
-          "需自費購買插件&地圖"
-        ],
+        "requirements": ["無需條件", "需自費購買插件&地圖"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
@@ -714,10 +628,7 @@
         "name": "醫護局",
         "category": "will",
         "description": "為城市提供專業的醫療服務!",
-        "requirements": [
-          "有一顆熱愛醫護工作的心",
-          "需自費購買地圖"
-        ],
+        "requirements": ["有一顆熱愛醫護工作的心", "需自費購買地圖"],
         "salary": 500,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
       },
@@ -726,10 +637,7 @@
         "name": "貪柴工坊",
         "category": "mechanic",
         "description": "為市民修理他們的愛車!",
-        "requirements": [
-          "無需條件",
-          "提供訓練"
-        ],
+        "requirements": ["無需條件", "提供訓練"],
         "salary": 350,
         "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
       }
@@ -877,6 +785,7 @@
       "severity": "high"
     }
   ],
+
   "team": [
     {
       "id": "john-doe",
@@ -919,6 +828,7 @@
       "status": "active"
     }
   ],
+
   "api": {
     "serverCode": "ymkax5",
     "cfxApiUrl": "https://servers-frontend.fivem.net/api/servers/single/",
@@ -950,6 +860,7 @@
       "通過後歡迎加入麻糬RP"
     ]
   },
+
   "donations": {
     "enabled": true,
     "currency": "TWD",
@@ -959,38 +870,21 @@
         "id": "supporter",
         "name": "街頭支持者",
         "price": 5,
-        "perks": [
-          "優先佇列",
-          "支持者稱號",
-          "額外服裝欄位"
-        ],
+        "perks": ["優先佇列", "支持者稱號", "額外服裝欄位"],
         "popular": false
       },
       {
         "id": "vip",
         "name": "VIP 身分",
         "price": 15,
-        "perks": [
-          "優先佇列",
-          "VIP 稱號",
-          "額外角色欄位",
-          "自訂車牌",
-          "VIP 休息室通行"
-        ],
+        "perks": ["優先佇列", "VIP 稱號", "額外角色欄位", "自訂車牌", "VIP 休息室通行"],
         "popular": true
       },
       {
         "id": "elite",
         "name": "精英幫派",
         "price": 30,
-        "perks": [
-          "優先佇列",
-          "精英稱號",
-          "2 個額外角色欄位",
-          "自訂車牌",
-          "專屬載具",
-          "自訂幫派稱號"
-        ],
+        "perks": ["優先佇列", "精英稱號", "2 個額外角色欄位", "自訂車牌", "專屬載具", "自訂幫派稱號"],
         "popular": false
       }
     ]
