@@ -1,133 +1,997 @@
 {
-  "meta": {
+  "seo": {
     "title": "MochiRP｜台灣 FiveM RP 伺服器・你的故事從這裡開始",
     "shortTitle": "你今天麻糬了嗎？",
-    "description": "MochiRP 是一座充滿自由與可能性的 GTA5 FiveM RP 城市。這裡有細膩的生活系統、豐富職業、真實經濟、沉浸劇情，從街頭小人物到企業老闆，每一個選擇都能改寫你的命運。",
-    "keywords": "MochiRP, 台灣RP伺服器, GTA5 RP, FiveM RP, 模擬人生, RP 城市, 台灣伺服, Mochi RP, 生活伺服器, RP伺服器, 台灣 GTA RP",
-    "language": "zh_TW",
+    "description": "MochiRP 是一座充滿自由與可能性的 GTA5 FiveM RP 城市。細膩生活系統、豐富職業、真實經濟、沉浸劇情兼具——從街頭小人物到企業老闆，每個選擇都能改寫你的命運。",
+    "keywords": [
+      "遊戲社群",
+      "RP 城市",
+      "台灣RP伺服器",
+      "洛聖都",
+      "MochiRP",
+      "FiveM RP",
+      "FiveM",
+      "FiveM 伺服器",
+      "GTA V",
+      "白名單伺服器",
+      "生活伺服器",
+      "台灣 GTA RP",
+      "RP 伺服器",
+      "GTA5 RP",
+      "GTA RP",
+      "角色扮演"
+    ],
+    "ogImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&h=630&fit=crop",
+    "twitterCard": "summary_large_image",
+    "twitterHandle": "@mochirp",
+    "favicon": "/favicon.ico",
+    "themeColor": "#f249b7",
+    "locale": "zh_TW",
     "url": "https://mochirp.com"
   },
-
+  "legal": {
+    "companyName": "MochiRP",
+    "email": "contact@nightcity-rp.com",
+    "privacyEmail": "privacy@nightcity-rp.com",
+    "dpoEmail": "dpo@nightcity-rp.com",
+    "supportEmail": "support@nightcity-rp.com",
+    "lastUpdated": "2025-01-01",
+    "minAge": 16,
+    "copyrightYear": 2025,
+    "dataRetention": {
+      "characterData": "閒置 6 個月",
+      "chatLogs": "30 天",
+      "connectionLogs": "90 天",
+      "banRecords": "永久",
+      "whitelistApplications": "1 年"
+    }
+  },
   "server": {
     "name": "MochiRP",
-    "abbr": "MCRP",
+    "shortName": "MCRP",
+    "tagline": "故事在此展開｜從街頭到豪宅，從無名到傳奇",
     "slogan": "在這座城市，選擇決定你的命運。",
-    "language": "繁體中文",
-    "player_limit": 80,
+    "description": "一個由玩家驅動的沉浸式 RP 城市：真實經濟、多元職涯與創業系統、每日活動與隨機事件，讓每次登入都是全新體驗。",
+    "ip": "play.nightcity-rp.com",
+    "port": "3457",
     "discord": "https://discord.gg/GF54979JNR",
-    "features": [
-      "25+ 合法職業與多層次犯罪體系",
-      "高自由度創業與企業經營",
-      "真實經濟循環與玩家驅動市場",
-      "每日活動・隨機事件・季節限定劇情",
-      "嚴選角色扮演文化，輕鬆但不失深度"
-    ],
+    "maxPlayers": 80,
+    "location": "Los Santos",
+    "language": "繁體中文",
+    "logo": {
+      "type": "text",
+      "content": "MC"
+    },
+    "stats": {
+      "established": "2025",
+      "totalPlayers": "500+",
+      "activeGangs": "3",
+      "businesses": "4"
+    },
     "loadingTips": [
       "尊重他人，是成為市民的第一步。",
       "金錢能說話，但尊重更有價值。",
       "每個決定，都是一段新故事的開始。",
       "警察不只是制服，更是秩序的象徵。",
       "醫療人員值得信任——他們是生命的延續者。",
-      "不要忘了，城市裡每一個人都有故事。"
+      "別忘了，城市裡每個人都有自己的故事。"
     ]
   },
-
-  "hero": {
-    "title": "MochiRP 城市",
-    "subtitle": "故事在此展開｜從街頭到豪宅，從無名到傳奇",
-    "loadingText": "城市載入中，請準備你的新人生...",
-    "themeColor": "#f249b7"
+  "images": {
+    "hero": {
+      "background": "https://www.pngall.com/wp-content/uploads/15/GTA-PNG-Picture.png",
+      "character": "https://www.pngall.com/wp-content/uploads/5/GTA-V-PNG.png"
+    },
+    "defaults": {
+      "teamAvatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&fit=crop",
+      "galleryThumbnail": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop"
+    }
   },
-
-  "features": {
-    "title": "城市特色",
-    "list": [
+  "ui": {
+    "hero": {
+      "graffiti": "WANTED",
+      "loadingText": "城市載入中，請準備你的新人生...",
+      "statusLabels": {
+        "status": "狀態",
+        "players": "玩家",
+        "server": "伺服器",
+        "online": "運作中",
+        "offline": "躺平中"
+      }
+    },
+    "features": {
+      "sectionTag": "為什麼選擇我們",
+      "title": "伺服器",
+      "titleAccent": "特色",
+      "highlight": "玩家驅動經濟 • 自研系統 • 穩定順暢 80+ 人伺服器"
+    },
+    "jobs": {
+      "sectionTag": "職涯機會",
+      "title": "打造你的",
+      "titleAccent": "人生",
+      "subtitle": "在洛聖都選擇你的道路！合法或非法，全由你決定！",
+      "categoriesTitle": "職業分類",
+      "allJobsLabel": "全部工作",
+      "totalJobsLabel": "總共職業",
+      "salaryRangeLabel": "薪資範圍",
+      "applyButtonText": "城內應徵",
+      "salaryPrefix": "起薪點",
+      "graffitiText": "FOLLOW THE RULES",
+      "salarySymbols": {
+        "low": "$",
+        "medium": "$$",
+        "high": "$$$",
+        "veryHigh": "$$$$"
+      },
+      "salaryThresholds": {
+        "medium": 300,
+        "high": 500,
+        "veryHigh": 600
+      }
+    },
+    "rules": {
+      "sectionTag": "必須遵守",
+      "title": "了解這些",
+      "titleAccent": "基本規則",
+      "subtitle": "我們嚴格管理這裡的秩序！詳細規則請到DC查閱！",
+      "graffiti": "RESPECT THE CODE",
+      "footer": "公平遊玩，否則封禁",
+      "severityLabels": {
+        "high": "高優先級",
+        "medium": "中等優先級",
+        "low": "低優先級"
+      }
+    },
+    "donate": {
+      "link": "https://your-donate-link.com"
+    },
+    "team": {
+      "sectionTag": "機密",
+      "title": "我們的",
+      "titleAccent": "成員",
+      "subtitle": "他們是維持城鎮秩序的人⋯記住他們並且尊重他們的權力。",
+      "casePrefix": "案件 #",
+      "aliasPrefix": "代號：",
+      "topBrassStamp": "TOP BRASS",
+      "joinTitle": "加入我們",
+      "joinSubtitle": "覺得自己有資格與我們並肩而行嗎？",
+      "joinButton": "透過 DISCORD 申請"
+    },
+    "gallery": {
+      "sectionTag": "證物",
+      "title": "證物",
+      "titleAccent": "保管庫",
+      "subtitle": "來自城鎮的影像證據，請小心查看。",
+      "evidencePrefix": "證物 #",
+      "loadMore": "載入更多證物",
+      "featuredBadge": "熱門"
+    },
+    "footer": {
+      "graffitiTop": "RESPECT",
+      "graffitiBottom": "THE STREETS",
+      "establishedPrefix": "創立",
+      "sections": {
+        "navigation": "導覽",
+        "serverStats": "伺服器狀態",
+        "connect": "連線"
+      },
+      "statsLabels": {
+        "players": "玩家",
+        "activeGangs": "活躍幫派",
+        "businesses": "商業機構"
+      },
+      "serverConnection": "伺服器連線",
+      "onlineStatus": "運作中",
+      "disclaimer": "與 Rockstar Games 或 Take-Two Interactive 無關。"
+    },
+    "navigation": {
+      "menuItems": [
+        "特色功能",
+        "職業",
+        "規則",
+        "團隊",
+        "相簿"
+      ],
+      "connectButton": "連線",
+      "discordButton": "Discord",
+      "serverCopyMessage": "伺服器 IP 已複製：",
+      "onlineText": "運作中",
+      "offlineText": "躺平中"
+    },
+    "common": {
+      "playNow": "立即遊玩",
+      "discord": "Discord",
+      "loading": "載入中...",
+      "privacy": "隱私權",
+      "terms": "服務條款",
+      "cookies": "Cookies"
+    }
+  },
+  "features": [
+    {
+      "id": "custom",
+      "title": "認真用心的管理團隊",
+      "description": "擁有多年管理經驗，認真、公平、不濫權！",
+      "icon": "UserStar",
+      "highlight": true
+    },
+    {
+      "id": "custom-framework",
+      "title": "好玩的半RP框架",
+      "description": "符合現代遊玩生態的遊玩模式，輕鬆、不困難、不硬核",
+      "icon": "Code2",
+      "highlight": true
+    },
+    {
+      "id": "mumu",
+      "title": "強大的技術組",
+      "description": "快速debug和持續更新",
+      "icon": "BugOff",
+      "highlight": true
+    },
+    {
+      "id": "gang-system",
+      "title": "大量特色玩法",
+      "description": "很多特色玩法只有在這裡才體驗得到！",
+      "icon": "ThumbsUp",
+      "highlight": true
+    },
+    {
+      "id": "heart",
+      "title": "共同集資",
+      "description": "如果有什麼想要體驗的插件都歡迎建議給我們！我們會主導招募有興趣體驗的玩家集資！",
+      "icon": "ThumbsUp",
+      "highlight": true
+    },
+    {
+      "id": "economy",
+      "title": "城市經濟",
+      "description": "25+ 種兼職工作、毒品、武器、10+ 種犯罪玩法與黑市交易拼命賺錢",
+      "icon": "DollarSign",
+      "highlight": false
+    },
+    {
+      "id": "vehicles-race",
+      "title": "賽車系統",
+      "description": "有不同的賽道以及多樣化的賽車玩法",
+      "icon": "Crown",
+      "highlight": false
+    },
+    {
+      "id": "housing",
+      "title": "房產與藏匿點",
+      "description": "城鎮有700+ 棟房產！從毒窟到豪宅，購買並擁有各類房產！而且有非常多的隱藏地圖！",
+      "icon": "Home",
+      "highlight": false
+    },
+    {
+      "id": "economy1",
+      "title": "開放創業",
+      "description": "開放自由創業！小至攤販大至企業，只要你提交完善規劃都有得談！",
+      "icon": "BadgeDollarSign",
+      "highlight": false
+    },
+    {
+      "id": "vehicles",
+      "title": "100+ 輛高級精緻座駕",
+      "description": "從低底盤車到超跑，盡情享受自訂改裝",
+      "icon": "Car",
+      "highlight": false
+    },
+    {
+      "id": "heists",
+      "title": "每日小活動",
+      "description": "每天隨機時間都會出現一些小活動或是小挑戰給大家參與！",
+      "icon": "CalendarClock",
+      "highlight": true
+    },
+    {
+      "id": "heists",
+      "title": "每月活動",
+      "description": "每月第二個和第四個星期六都會舉辦活動！踴躍參與贏得獎勵！",
+      "icon": "CalendarCheck",
+      "highlight": true
+    }
+  ],
+  "gallery": {
+    "images": [
       {
-        "icon": "fa-solid fa-shield-halved",
-        "title": "穩定可靠的伺服器",
-        "description": "由專業技術團隊維護，確保流暢遊戲體驗與穩定環境。"
+        "id": 1,
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
+        "alt": "夜晚的城市天際線",
+        "title": "警政署",
+        "category": "locations",
+        "featured": true
       },
       {
-        "icon": "fa-solid fa-users-gear",
-        "title": "多元角色扮演",
-        "description": "從上班族到企業家，從警察到罪犯，每個角色都有自己的舞台。"
+        "id": 2,
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
+        "alt": "警政署",
+        "title": "醫護局",
+        "category": "locations",
+        "featured": true
       },
       {
-        "icon": "fa-solid fa-code",
-        "title": "獨家自製系統",
-        "description": "結合創意與技術的自研系統，打造出屬於 MochiRP 的獨特玩法。"
+        "id": 3,
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
+        "alt": "夜晚的城市天際線",
+        "title": "海尋鼠",
+        "category": "locations",
+        "featured": true
       },
       {
-        "icon": "fa-solid fa-map-location-dot",
-        "title": "自由探索的城市",
-        "description": "多樣地點、秘密彩蛋與隨機事件等你發現，每次登入都是全新體驗。"
+        "id": 4,
+        "src": "https://images.unsplash.com/photo-1593280405106-e438ebe93f5b?w=800&h=600&fit=crop",
+        "alt": "警察追逐場景",
+        "title": "高速追逐",
+        "category": "action",
+        "featured": true
       },
       {
-        "icon": "fa-solid fa-briefcase",
-        "title": "玩家驅動的經濟",
-        "description": "價格、供應、需求由玩家決定。成為商人、企業家或工人，掌握市場命脈。"
+        "id": 5,
+        "src": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&h=600&fit=crop",
+        "alt": "汽車聚會活動",
+        "title": "每週車聚",
+        "category": "events",
+        "featured": false
       },
       {
-        "icon": "fa-solid fa-calendar-star",
-        "title": "活動與劇情事件",
-        "description": "定期舉辦特別活動、季節限定任務與劇情導向事件，讓城市充滿生命力。"
+        "id": 6,
+        "src": "https://images.unsplash.com/photo-1547447134-cd3f5c716030?w=800&h=600&fit=crop",
+        "alt": "賽車活動",
+        "title": "街頭賽車",
+        "category": "events",
+        "featured": true
+      },
+      {
+        "id": 7,
+        "src": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop",
+        "alt": "角色扮演場景",
+        "title": "銀行搶劫 RP",
+        "category": "roleplay",
+        "featured": true
+      },
+      {
+        "id": 8,
+        "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop",
+        "alt": "社區聚會",
+        "title": "社區活動",
+        "category": "events",
+        "featured": false
+      },
+      {
+        "id": 9,
+        "src": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
+        "alt": "改裝車輛",
+        "title": "客製化座駕",
+        "category": "vehicles",
+        "featured": true
+      },
+      {
+        "id": 10,
+        "src": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
+        "alt": "伺服器活動",
+        "title": "特別活動",
+        "category": "events",
+        "featured": false
+      },
+      {
+        "id": 11,
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
+        "alt": "夜晚的城市天際線",
+        "title": "喵喵喵",
+        "category": "locations",
+        "featured": true
+      },
+      {
+        "id": 12,
+        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop",
+        "alt": "夜晚的城市天際線",
+        "title": "貪柴工坊",
+        "category": "locations",
+        "featured": true
+      }
+    ],
+    "categories": [
+      {
+        "id": "all",
+        "name": "全部"
+      },
+      {
+        "id": "locations",
+        "name": "特別地點"
+      },
+      {
+        "id": "action",
+        "name": "精彩片段"
+      },
+      {
+        "id": "events",
+        "name": "活動"
+      },
+      {
+        "id": "roleplay",
+        "name": "劇情片段"
+      },
+      {
+        "id": "vehicles",
+        "name": "車輛"
       }
     ]
   },
-
-  "rules": {
-    "title": "城市規章",
-    "description": "為了維持良好的 RP 環境與遊戲體驗，請所有市民遵守以下規定：",
-    "items": [
-      "禁止 RDM（無理由殺人）、VDM（以車輛惡意撞人）。",
-      "禁止 FailRP（破壞角色設定）、MetaGaming（利用 OOC 資訊）。",
-      "禁止利用漏洞或外掛，違者永久封禁。",
-      "請保持尊重與理性，避免過度挑釁或侮辱性發言。",
-      "ERP（色情角色扮演）僅限私密範圍並經雙方同意。",
-      "禁止在非 RP 狀態下影響他人遊戲體驗。",
-      "管理團隊保留最終裁定權。"
+  "jobs": {
+    "categories": [
+      {
+        "id": "emergency",
+        "name": "緊急服務",
+        "color": "green",
+        "legal": true
+      },
+      {
+        "id": "civilian",
+        "name": "平民",
+        "color": "blue",
+        "legal": true
+      },
+      {
+        "id": "criminal",
+        "name": "犯罪",
+        "color": "red",
+        "legal": false
+      },
+      {
+        "id": "business",
+        "name": "商業",
+        "color": "gold",
+        "legal": true
+      },
+      {
+        "id": "government",
+        "name": "特別職業",
+        "color": "blue",
+        "legal": true
+      },
+      {
+        "id": "medical",
+        "name": "醫療",
+        "color": "green",
+        "legal": true
+      },
+      {
+        "id": "will",
+        "name": "未來開放",
+        "color": "green",
+        "legal": true
+      },
+      {
+        "id": "mechanic",
+        "name": "車廠",
+        "color": "orange",
+        "legal": true
+      }
+    ],
+    "list": [
+      {
+        "id": "police",
+        "name": "警察",
+        "category": "emergency",
+        "description": "保護並服務城市，維持法律與秩序",
+        "requirements": [
+          "無犯罪紀錄",
+          "需面試"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "ems",
+        "name": "急救人員",
+        "category": "government",
+        "description": "拯救生命並在提供醫療照護(特別劇情才會出沒)",
+        "requirements": [
+          "無犯罪紀錄",
+          "需面試"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "taxi",
+        "name": "材料商",
+        "category": "business",
+        "description": "採收不同的材料經營物資生意!",
+        "requirements": [
+          "無需條件"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "dealer",
+        "name": "毒販",
+        "category": "criminal",
+        "description": "販售非法產品並掌控地盤",
+        "requirements": [
+          "街頭名聲",
+          "幫派關係"
+        ],
+        "salary": 600,
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "gunrunner",
+        "name": "軍火商",
+        "category": "criminal",
+        "description": "為不法分子提供武器",
+        "requirements": [
+          "具備人脈",
+          "可信任等級"
+        ],
+        "salary": 600,
+        "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "gunrunner1",
+        "name": "非法材料商",
+        "category": "criminal",
+        "description": "為不法分子提供各種非法物資或材料",
+        "requirements": [
+          "具備人脈",
+          "可信任等級"
+        ],
+        "salary": 600,
+        "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "uwu",
+        "name": "咖啡廳店員",
+        "category": "business",
+        "description": "幫助罪犯脫罪並賺取金錢",
+        "requirements": [
+          "無需條件",
+          "提供訓練"
+        ],
+        "salary": 350,
+        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "pearl",
+        "name": "海鮮餐廳店員",
+        "category": "business",
+        "description": "幫助罪犯脫罪並賺取金錢",
+        "requirements": [
+          "無需條件",
+          "提供訓練"
+        ],
+        "salary": 350,
+        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "market2",
+        "name": "餐車老闆",
+        "category": "business",
+        "description": "誰說只有開店才能賺錢!我們餐車也能闖出一片天!",
+        "requirements": [
+          "無需條件",
+          "有$$就行"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "market",
+        "name": "便利店老闆",
+        "category": "business",
+        "description": "做做小生意賺取金錢",
+        "requirements": [
+          "無需條件",
+          "有$$就行"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "judge",
+        "name": "法官",
+        "category": "government",
+        "description": "決定洛聖都罪犯的命運(特別劇情才會出沒)",
+        "requirements": [
+          "法律經驗",
+          "需提交申請"
+        ],
+        "salary": 600,
+        "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "judge1",
+        "name": "律師",
+        "category": "government",
+        "description": "為洛聖都罪犯改變命運(特別劇情才會出沒)",
+        "requirements": [
+          "法律經驗",
+          "需提交申請"
+        ],
+        "salary": 600,
+        "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "doctor",
+        "name": "醫生",
+        "category": "government",
+        "description": "在醫院提供進階醫療服務(特別劇情才會出沒)",
+        "requirements": [
+          "醫師執照",
+          "需有經驗"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "nurse",
+        "name": "護士",
+        "category": "government",
+        "description": "協助醫生並照顧病人(特別劇情才會出沒)",
+        "requirements": [
+          "需有經驗",
+          "提供訓練"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "sing",
+        "name": "街頭藝人",
+        "category": "civilian",
+        "description": "賣藝演出成就你的巨星之路!",
+        "requirements": [
+          "無需條件"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "house",
+        "name": "房東",
+        "category": "civilian",
+        "description": "想不想當包租公包租婆?",
+        "requirements": [
+          "無需條件",
+          "有$$就行"
+        ],
+        "salary": 600,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "ride",
+        "name": "旅遊業者",
+        "category": "civilian",
+        "description": "帶市民逛遍城市大小景點!",
+        "requirements": [
+          "無需條件",
+          "有車就行"
+        ],
+        "salary": 400,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "will1",
+        "name": "鑽石賭場",
+        "category": "will",
+        "description": "各種賭博玩法應有盡有!",
+        "requirements": [
+          "無需條件",
+          "需自費購買插件&地圖"
+        ],
+        "salary": 600,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "will2",
+        "name": "酒吧/夜店",
+        "category": "will",
+        "description": "提供各式調酒以及精彩的夜生活!",
+        "requirements": [
+          "無需條件",
+          "需自費購買插件&地圖"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "will3",
+        "name": "第3間餐廳",
+        "category": "will",
+        "description": "為城市提供更多的餐飲選擇!",
+        "requirements": [
+          "無需條件",
+          "需自費購買插件&地圖"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "will4",
+        "name": "醫護局",
+        "category": "will",
+        "description": "為城市提供專業的醫療服務!",
+        "requirements": [
+          "有一顆熱愛醫護工作的心",
+          "需自費購買地圖"
+        ],
+        "salary": 500,
+        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+      },
+      {
+        "id": "auto_mechanic",
+        "name": "貪柴工坊",
+        "category": "mechanic",
+        "description": "為市民修理他們的愛車!",
+        "requirements": [
+          "無需條件",
+          "提供訓練"
+        ],
+        "salary": 350,
+        "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
+      }
     ]
   },
-
-  "team": {
-    "title": "團隊成員",
-    "members": [
-      { "name": "小紀 Dream", "role": "伺服器擁有者" },
-      { "name": "狐沐沐 MumuFox", "role": "管理員・開發者" },
-      { "name": "企鵝 Zhi", "role": "技術人員" },
-      { "name": "蘇打 Soda", "role": "管理員" }
+  "rules": [
+    {
+      "id": "rdm",
+      "title": "禁止隨機殺人 (RDM)",
+      "description": "沒有合理角色扮演理由不得殺人 — 這不是 GTA 線上模式",
+      "category": "combat",
+      "severity": "high"
+    },
+    {
+      "id": "vdm",
+      "title": "禁止車輛殺人 (VDM)",
+      "description": "車子不是武器 — 用來逃跑，不是用來輾人",
+      "category": "combat",
+      "severity": "high"
+    },
+    {
+      "id": "metagaming",
+      "title": "禁止元遊戲 (Metagaming)",
+      "description": "你在 OOC 知道的事情就只能留在 OOC — 保持真實",
+      "category": "roleplay",
+      "severity": "high"
+    },
+    {
+      "id": "powergaming",
+      "title": "禁止強迫遊戲行為 (Powergaming)",
+      "description": "給其他人反應機會 — 沒有人是無敵的",
+      "category": "roleplay",
+      "severity": "medium"
+    },
+    {
+      "id": "nlr",
+      "title": "新生命規則 (NLR)",
+      "description": "當你死亡時，忘記過去 15 分鐘發生的事",
+      "category": "roleplay",
+      "severity": "medium"
+    },
+    {
+      "id": "respect",
+      "title": "尊重每一個人",
+      "description": "保持街頭風格但也要尊重他人 — 禁止 OOC 仇恨",
+      "category": "general",
+      "severity": "high"
+    },
+    {
+      "id": "greenzone",
+      "title": "安全區 (Green Zones)",
+      "description": "禁止在醫院、警局或出生點進行犯罪",
+      "category": "zones",
+      "severity": "medium"
+    },
+    {
+      "id": "corruption",
+      "title": "警察腐敗",
+      "description": "允許黑警，但必須經過管理員批准",
+      "category": "special",
+      "severity": "low"
+    },
+    {
+      "id": "failrp",
+      "title": "禁止 FailRP",
+      "description": "保持角色扮演 — 把生命當成真的一樣看待",
+      "category": "roleplay",
+      "severity": "high"
+    },
+    {
+      "id": "combat-logging",
+      "title": "禁止劇情中登出",
+      "description": "不要在戰鬥或警察追逐中斷線",
+      "category": "combat",
+      "severity": "high"
+    },
+    {
+      "id": "robbery",
+      "title": "搶劫規則",
+      "description": "搶銀行需要 4 名以上警察在線，搶商店需要 2 名以上",
+      "category": "special",
+      "severity": "medium"
+    },
+    {
+      "id": "initiation",
+      "title": "正確的開場",
+      "description": "在進行敵對行為前必須先有角色互動開場",
+      "category": "combat",
+      "severity": "high"
+    },
+    {
+      "id": "value-life",
+      "title": "珍惜你的生命",
+      "description": "在寡不敵眾或被槍指著時，請做出真實反應",
+      "category": "roleplay",
+      "severity": "high"
+    },
+    {
+      "id": "mic-required",
+      "title": "必須使用麥克風",
+      "description": "語音聊天是必須的 — 禁止純文字角色扮演",
+      "category": "general",
+      "severity": "high"
+    },
+    {
+      "id": "exploits",
+      "title": "禁止利用漏洞",
+      "description": "回報漏洞，不要濫用 — 立即封禁",
+      "category": "general",
+      "severity": "high"
+    },
+    {
+      "id": "safezones",
+      "title": "安全區規則",
+      "description": "政府機構內禁止持械",
+      "category": "zones",
+      "severity": "medium"
+    },
+    {
+      "id": "hostage",
+      "title": "人質規則",
+      "description": "禁止假人質 — 人質必須是真人玩家",
+      "category": "special",
+      "severity": "medium"
+    },
+    {
+      "id": "ems-respect",
+      "title": "尊重醫護人員",
+      "description": "讓醫護做他們的工作 — 禁止在醫院守株待兔",
+      "category": "combat",
+      "severity": "medium"
+    },
+    {
+      "id": "stream-sniping",
+      "title": "禁止直播狙擊",
+      "description": "不要利用直播獲取優勢",
+      "category": "general",
+      "severity": "high"
+    },
+    {
+      "id": "erp",
+      "title": "禁止未經對方同意強制對方ERP",
+      "description": "禁止未經同意的性相關內容",
+      "category": "roleplay",
+      "severity": "high"
+    }
+  ],
+  "team": [
+    {
+      "id": "john-doe",
+      "name": "小紀Dream.",
+      "role": "伺服器擁有者",
+      "avatar": "https://r2.fivemanage.com/xDSON0vmEpJW9T4LeLw1O/im11111age.png",
+      "discord": "bigboss",
+      "description": "自第一天起就負責許願?",
+      "badge": "OG",
+      "status": "active"
+    },
+    {
+      "id": "jane-smith",
+      "name": "狐沐沐MumuFox.",
+      "role": "總管理員+開發者",
+      "avatar": "https://r2.fivemanage.com/xDSON0vmEpJW9T4LeLw1O/IMG_5572.jpg",
+      "discord": "control",
+      "description": "資深管理員，維持城鎮的公平與秩序",
+      "badge": "ADMIN+DEV",
+      "status": "active"
+    },
+    {
+      "id": "mike-wilson",
+      "name": "企鵝Zhi.",
+      "role": "車輛技術員",
+      "avatar": "https://r2.fivemanage.com/xDSON0vmEpJW9T4LeLw1O/32121.png",
+      "discord": "techguy",
+      "description": "打造車輛相關項目的核心技術人員",
+      "badge": "DEV",
+      "status": "active"
+    },
+    {
+      "id": "sarah-jones",
+      "name": "蘇打Soda.",
+      "role": "管理員",
+      "avatar": "https://r2.fivemanage.com/xDSON0vmEpJW9T4LeLw1O/im111age.png",
+      "discord": "peacekeeper",
+      "description": "第一時間回應玩家問題&城內卡BUG救援",
+      "badge": "MOD",
+      "status": "active"
+    }
+  ],
+  "api": {
+    "serverCode": "ymkax5",
+    "cfxApiUrl": "https://servers-frontend.fivem.net/api/servers/single/",
+    "refreshInterval": 30000
+  },
+  "social": {
+    "discord": "https://discord.gg/GF54979JNR",
+    "twitter": null,
+    "youtube": null,
+    "tiktok": null,
+    "instagram": "https://www.instagram.com/arkproject.2024/",
+    "twitch": null,
+    "teamspeak": null,
+    "forum": null
+  },
+  "whitelist": {
+    "enabled": true,
+    "applicationUrl": "https://discord.gg/GF54979JNR",
+    "requirements": [
+      "未限制遊玩年齡但不可亂玩生事",
+      "需有清晰可用的麥克風",
+      "閱讀並理解伺服器規則",
+      "未在拒審或ARK封禁名單內"
+    ],
+    "process": [
+      "加入城鎮Discord",
+      "填寫Discord審核表格",
+      "等待審核（48小時內）",
+      "通過後歡迎加入麻糬RP"
     ]
   },
-
   "donations": {
-    "title": "贊助支持",
-    "description": "支持 MochiRP 的營運，讓我們能持續帶給玩家更好的體驗。",
-    "plans": [
+    "enabled": true,
+    "currency": "TWD",
+    "paypalUrl": "https://paypal.me/strawberrytown",
+    "packages": [
       {
+        "id": "supporter",
         "name": "街頭支持者",
-        "price": "NT$150",
+        "price": 5,
         "perks": [
-          "獲得專屬 Discord 身分組",
-          "感謝公告牆紀錄你的支持"
-        ]
+          "優先佇列",
+          "支持者稱號",
+          "額外服裝欄位"
+        ],
+        "popular": false
       },
       {
-        "name": "VIP 市民",
-        "price": "NT$300",
+        "id": "vip",
+        "name": "VIP 身分",
+        "price": 15,
         "perks": [
-          "專屬遊戲稱號：VIP 市民",
-          "小額遊戲金獎勵",
-          "優先登入權限"
-        ]
+          "優先佇列",
+          "VIP 稱號",
+          "額外角色欄位",
+          "自訂車牌",
+          "VIP 休息室通行"
+        ],
+        "popular": true
       },
       {
-        "name": "精英贊助者",
-        "price": "NT$600",
+        "id": "elite",
+        "name": "精英幫派",
+        "price": 30,
         "perks": [
-          "專屬 Discord 聊天頻道",
-          "高額遊戲金獎勵",
-          "角色名永久留存於榮譽牆"
-        ]
+          "優先佇列",
+          "精英稱號",
+          "2 個額外角色欄位",
+          "自訂車牌",
+          "專屬載具",
+          "自訂幫派稱號"
+        ],
+        "popular": false
       }
     ]
   },
@@ -136,8 +1000,7 @@
     "showSocialLinks": true,
     "showLegalLinks": true,
     "showServerStats": true,
-    "copyright": "© 2025 MochiRP｜城市由玩家共同創造。版權所有。",
-    "disclaimer": "本伺服器為玩家自製角色扮演專案，與 Rockstar Games 及 Take-Two Interactive 並無任何直接關聯。"
+    "copyright": "© 2025 MochiRP (MochiRP)。版權所有。",
+    "disclaimer": "本伺服器與 Rockstar Games 或 Take-Two Interactive 無任何關聯"
   }
-
 }
