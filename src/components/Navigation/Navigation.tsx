@@ -197,7 +197,7 @@ const DesktopNavigation = () => {
               ))}
               {/* 💖 贊助我們按鈕 */}
               <a
-                href="https://paypal.me/nightcityrp" // ← 換成你的贊助網址
+                href="https://paypal.me/strawberrytown" // ← 換成你的贊助網址
                 target="_blank"
                 rel="noreferrer"
                 className="relative px-5 py-2 ml-4 text-sm font-street font-semibold uppercase tracking-wide text-street-black bg-gang-gold hover:bg-pink-400 hover:text-white transition-all duration-200 rounded-xl shadow-md hover:shadow-lg"

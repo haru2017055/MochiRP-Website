@@ -478,7 +478,7 @@
 
     ],
 "list": [
-      [
+      
         {
           "id": "police",
           "name": "警察",
@@ -677,7 +677,6 @@
           "salary": 350,
           "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
         }
-      ]
 
     ]
   },
