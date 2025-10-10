@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger, smoothScrollTo } from '../../lib/gsap-config'
-import { Home, Briefcase, Shield, Users, Image, ScrollText } from 'lucide-react'
+import { Home, Briefcase, Shield, Users, Image, ScrollText, Heart } from 'lucide-react'
 import siteConfig from '../../config/site.config.json'
 import { BottomNavigation } from './BottomNavigation'
 
@@ -11,7 +11,16 @@ const navItems = [
   { id: 'jobs', label: 'Jobs', href: '#jobs', icon: <Briefcase className="w-5 h-5" /> },
   { id: 'rules', label: 'Rules', href: '#rules', icon: <ScrollText className="w-5 h-5" /> },
   { id: 'team', label: 'Team', href: '#team', icon: <Users className="w-5 h-5" /> },
-  { id: 'gallery', label: 'Gallery', href: '#gallery', icon: <Image className="w-5 h-5" /> }
+  { id: 'gallery', label: 'Gallery', href: '#gallery', icon: <Image className="w-5 h-5" /> },
+
+  // 💖 新增這個
+  {
+    id: 'donate',
+    label: '贊助我們',
+    href: 'https://paypal.me/nightcityrp', // ← 這裡放你的實際贊助頁連結
+    icon: <Heart className="w-5 h-5 text-pink-500" />,
+    external: true
+  }
 ]
 
 export const Navigation = () => {
@@ -186,6 +195,15 @@ const DesktopNavigation = () => {
                   }`} />
                 </a>
               ))}
+              {/* 💖 贊助我們按鈕 */}
+              <a
+                href="https://paypal.me/nightcityrp" // ← 換成你的贊助網址
+                target="_blank"
+                rel="noreferrer"
+                className="relative px-5 py-2 ml-4 text-sm font-street font-semibold uppercase tracking-wide text-street-black bg-gang-gold hover:bg-pink-400 hover:text-white transition-all duration-200 rounded-xl shadow-md hover:shadow-lg"
+              >
+                <span className="relative z-10">贊助我們</span>
+              </a>
             </div>
 
             {/* CTA Buttons - Desktop */}

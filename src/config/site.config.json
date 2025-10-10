@@ -478,204 +478,207 @@
 
     ],
 "list": [
-      {
-        "id": "police",
-        "name": "警察",
-        "category": "emergency",
-        "description": "保護並服務城市，維持法律與秩序",
-        "requirements": ["無犯罪紀錄", "需面試"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "ems",
-        "name": "急救人員",
-        "category": "government",
-        "description": "拯救生命並在提供醫療照護(特別劇情才會出沒)",
-        "requirements": ["無犯罪紀錄", "需面試"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "taxi",
-        "name": "材料商",
-        "category": "business",
-        "description": "採收不同的材料經營物資生意!",
-        "requirements": ["無需條件"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "dealer",
-        "name": "毒販",
-        "category": "criminal",
-        "description": "販售非法產品並掌控地盤",
-        "requirements": ["街頭名聲", "幫派關係"],
-        "salary": 600,
-        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "gunrunner",
-        "name": "軍火商",
-        "category": "criminal",
-        "description": "為不法分子提供武器",
-        "requirements": ["具備人脈", "可信任等級"],
-        "salary": 600,
-        "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "gunrunner1",
-        "name": "非法材料商",
-        "category": "criminal",
-        "description": "為不法分子提供各種非法物資或材料",
-        "requirements": ["具備人脈", "可信任等級"],
-        "salary": 600,
-        "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "uwu",
-        "name": "咖啡廳店員",
-        "category": "business",
-        "description": "幫助罪犯脫罪並賺取金錢",
-        "requirements": ["無需條件", "提供訓練"],
-        "salary": 350,
-        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "pearl",
-        "name": "海鮮餐廳店員",
-        "category": "business",
-        "description": "幫助罪犯脫罪並賺取金錢",
-        "requirements": ["無需條件", "提供訓練"],
-        "salary": 350,
-        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "market2",
-        "name": "餐車老闆",
-        "category": "business",
-        "description": "誰說只有開店才能賺錢!我們餐車也能闖出一片天!",
-        "requirements": ["無需條件", "有$$就行"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "market",
-        "name": "便利店老闆",
-        "category": "business",
-        "description": "做做小生意賺取金錢",
-        "requirements": ["無需條件", "有$$就行"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "judge",
-        "name": "法官",
-        "category": "government",
-        "description": "決定洛聖都罪犯的命運(特別劇情才會出沒)",
-        "requirements": ["法律經驗", "需提交申請"],
-        "salary": 600,
-        "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "judge1",
-        "name": "律師",
-        "category": "government",
-        "description": "為洛聖都罪犯改變命運(特別劇情才會出沒)",
-        "requirements": ["法律經驗", "需提交申請"],
-        "salary": 600,
-        "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "doctor",
-        "name": "醫生",
-        "category": "government",
-        "description": "在醫院提供進階醫療服務(特別劇情才會出沒)",
-        "requirements": ["醫師執照", "需有經驗"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "nurse",
-        "name": "護士",
-        "category": "government",
-        "description": "協助醫生並照顧病人(特別劇情才會出沒)",
-        "requirements": ["需有經驗", "提供訓練"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "sing",
-        "name": "街頭藝人",
-        "category": "civilian",
-        "description": "賣藝演出成就你的巨星之路!",
-        "requirements": ["無需條件"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "house",
-        "name": "房東",
-        "category": "civilian",
-        "description": "想不想當包租公包租婆?",
-        "requirements": ["無需條件", "有$$就行"],
-        "salary": 600,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "ride",
-        "name": "旅遊業者",
-        "category": "civilian",
-        "description": "帶市民逛遍城市大小景點!",
-        "requirements": ["無需條件", "有車就行"],
-        "salary": 400,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "will1",
-        "name": "鑽石賭場",
-        "category": "will",
-        "description": "各種賭博玩法應有盡有!",
-        "requirements": ["無需條件", "需自費購買插件&地圖"],
-        "salary": 600,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "will2",
-        "name": "酒吧/夜店",
-        "category": "will",
-        "description": "提供各式調酒以及精彩的夜生活!",
-        "requirements": ["無需條件", "需自費購買插件&地圖"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "will3",
-        "name": "第3間餐廳",
-        "category": "will",
-        "description": "為城市提供更多的餐飲選擇!",
-        "requirements": ["無需條件", "需自費購買插件&地圖"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "will4",
-        "name": "醫護局",
-        "category": "will",
-        "description": "為城市提供專業的醫療服務!",
-        "requirements": ["有一顆熱愛醫護工作的心", "需自費購買地圖"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "auto_mechanic",
-        "name": "貪柴工坊",
-        "category": "mechanic",
-        "description": "為市民修理他們的愛車!",
-        "requirements": ["無需條件", "提供訓練"],
-        "salary": 350,
-        "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
-      }
+      [
+        {
+          "id": "police",
+          "name": "警察",
+          "category": "emergency",
+          "description": "維持城市秩序，守護市民安全，讓法律之光遍佈每個角落。",
+          "requirements": ["無犯罪紀錄", "需面試"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "ems",
+          "name": "急救人員",
+          "category": "government",
+          "description": "與死神賽跑的英雄，負責緊急醫療與救護（僅在特別劇情中出現）。",
+          "requirements": ["無犯罪紀錄", "需面試"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "taxi",
+          "name": "材料商",
+          "category": "business",
+          "description": "採集並販售各式材料，打造屬於自己的物資帝國！",
+          "requirements": ["無需條件"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "dealer",
+          "name": "毒販",
+          "category": "criminal",
+          "description": "掌控黑市交易，販售非法商品，建立屬於你的地盤與勢力。",
+          "requirements": ["街頭名聲", "幫派關係"],
+          "salary": 600,
+          "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "gunrunner",
+          "name": "軍火商",
+          "category": "criminal",
+          "description": "提供火力支援給有需要的人，成為地下世界的武器供應者。",
+          "requirements": ["具備人脈", "可信任等級"],
+          "salary": 600,
+          "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "gunrunner1",
+          "name": "非法材料商",
+          "category": "criminal",
+          "description": "負責走私與供應非法物資，黑市交易少不了你的身影。",
+          "requirements": ["具備人脈", "可信任等級"],
+          "salary": 600,
+          "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "uwu",
+          "name": "咖啡廳店員",
+          "category": "business",
+          "description": "在可愛的氛圍中服務客人，泡咖啡、聊生活，讓人心情放鬆。",
+          "requirements": ["無需條件", "提供訓練"],
+          "salary": 350,
+          "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "pearl",
+          "name": "海鮮餐廳店員",
+          "category": "business",
+          "description": "熱情招待每一位顧客，將海鮮料理與笑容一同端上桌。",
+          "requirements": ["無需條件", "提供訓練"],
+          "salary": 350,
+          "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "market2",
+          "name": "餐車老闆",
+          "category": "business",
+          "description": "開著餐車奔走城市，用料理征服人心，也征服味蕾！",
+          "requirements": ["無需條件", "有$$就行"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "market",
+          "name": "便利店老闆",
+          "category": "business",
+          "description": "經營自己的小店舖，每一筆交易都是人生的小確幸。",
+          "requirements": ["無需條件", "有$$就行"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "judge",
+          "name": "法官",
+          "category": "government",
+          "description": "以公正之名裁決案件，讓正義在洛聖都不被遺忘（特別劇情登場）。",
+          "requirements": ["法律經驗", "需提交申請"],
+          "salary": 600,
+          "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "judge1",
+          "name": "律師",
+          "category": "government",
+          "description": "在法庭上為客戶據理力爭，改變命運、爭取自由（特別劇情登場）。",
+          "requirements": ["法律經驗", "需提交申請"],
+          "salary": 600,
+          "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "doctor",
+          "name": "醫生",
+          "category": "government",
+          "description": "提供專業的醫療服務，守護每一條寶貴的生命（特別劇情登場）。",
+          "requirements": ["醫師執照", "需有經驗"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "nurse",
+          "name": "護士",
+          "category": "government",
+          "description": "在醫院中協助醫生、照顧病患，是醫療團隊不可或缺的一環（特別劇情登場）。",
+          "requirements": ["需有經驗", "提供訓練"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "sing",
+          "name": "街頭藝人",
+          "category": "civilian",
+          "description": "用音樂與才華感動路人，讓街頭成為你的舞台與夢想起點！",
+          "requirements": ["無需條件"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "house",
+          "name": "房東",
+          "category": "civilian",
+          "description": "投資房產、出租物業，輕鬆當個包租公／包租婆。",
+          "requirements": ["無需條件", "有$$就行"],
+          "salary": 600,
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "ride",
+          "name": "旅遊業者",
+          "category": "civilian",
+          "description": "開車帶著旅客遊覽城市各個角落，成為他們難忘的嚮導！",
+          "requirements": ["無需條件", "有車就行"],
+          "salary": 400,
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "will1",
+          "name": "鑽石賭場",
+          "category": "will",
+          "description": "全城最豪華的娛樂場所，各種賭博與遊戲應有盡有！",
+          "requirements": ["無需條件", "需自費購買插件與地圖"],
+          "salary": 600,
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "will2",
+          "name": "酒吧 / 夜店",
+          "category": "will",
+          "description": "燈光、音樂與酒精交織的夜晚，盡情享受洛聖都的夜生活！",
+          "requirements": ["無需條件", "需自費購買插件與地圖"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "will3",
+          "name": "第三間餐廳",
+          "category": "will",
+          "description": "為城市增添更多美食選擇，讓人回味無窮！",
+          "requirements": ["無需條件", "需自費購買插件與地圖"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "will4",
+          "name": "醫護局",
+          "category": "will",
+          "description": "城市醫療體系的核心，為市民提供完善的醫護支援！",
+          "requirements": ["熱愛醫療工作", "需自費購買地圖"],
+          "salary": 500,
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
+        },
+        {
+          "id": "auto_mechanic",
+          "name": "貪柴工坊",
+          "category": "mechanic",
+          "description": "專業維修與改裝服務，讓每一台車都重獲新生！",
+          "requirements": ["無需條件", "提供訓練"],
+          "salary": 350,
+          "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
+        }
+      ]
+
     ]
   },
   "rules": [
