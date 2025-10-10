@@ -4,15 +4,37 @@
     "shortTitle": "你今天麻糬了嗎?｜MochiRP",
     "description": "加入我們用心經營的 GTA V FiveM 角色扮演伺服器。大量高質量模組車、25+ 合法賺錢方式、輕鬆遊玩，簡單審核，立即申請白名單！",
     "keywords": [
-      "FiveM", 
-      "GTA V", 
-      "角色扮演", 
-      "RP 伺服器", 
-      "GTA RP", 
-      "FiveM 伺服器", 
-      "遊戲社群",
-      "洛聖都",
-      "白名單伺服器"
+      "MochiRP",
+      "FiveM",
+      "GTA V",
+      "GTA RP",
+      "FiveM RP",
+      "RP 伺服器",
+      "FiveM 伺服器",
+      "GTA RP 伺服器",
+      "角色扮演",
+      "半RP 伺服器",
+      "輕RP 伺服器",
+      "白名單伺服器",
+      "繁體中文 RP",
+      "台灣 RP 伺服器",
+      "亞洲 RP 伺服器",
+      "GTA RP 中文",
+      "洛聖都 RP",
+      "城市經濟系統",
+      "自由創業 RP",
+      "模組車伺服器",
+      "警察 RP",
+      "醫療 RP",
+      "犯罪 RP",
+      "黑幫 RP",
+      "餐廳 RP",
+      "社交 RP",
+      "Discord 白名單",
+      "MochiRP 城市",
+      "GTA RP 台灣",
+      "GTA RP Discord",
+      "台灣 GTA RP"
     ],
     "ogImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&h=630&fit=crop",
     "twitterCard": "summary_large_image",
@@ -282,7 +304,7 @@
       "highlight": true
     }
   ],
-  "gallery": {
+  "_disabled_gallery": {
     "images": [
       { 
         "id": 1, 
