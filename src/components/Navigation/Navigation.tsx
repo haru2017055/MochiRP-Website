@@ -12,15 +12,6 @@ const navItems = [
   { id: 'rules', label: 'Rules', href: '#rules', icon: <ScrollText className="w-5 h-5" /> },
   { id: 'team', label: 'Team', href: '#team', icon: <Users className="w-5 h-5" /> },
   { id: 'gallery', label: 'Gallery', href: '#gallery', icon: <Image className="w-5 h-5" /> },
-
-  // 💖 新增這個
-  {
-    id: 'donate',
-    label: '贊助我們',
-    href: 'https://paypal.me/nightcityrp', // ← 這裡放你的實際贊助頁連結
-    icon: <Heart className="w-5 h-5 text-pink-500" />,
-    external: true
-  }
 ]
 
 export const Navigation = () => {
