@@ -681,146 +681,121 @@
     ]
   },
   "rules": [
+    [
     {
       "id": "rdm",
       "title": "禁止隨機殺人 (RDM)",
-      "description": "沒有合理角色扮演理由不得殺人 — 這不是 GTA 線上模式",
+      "description": "任何造成他人受傷或死亡的行為，都必須建立在合理的角色理由上。不可因個人情緒、誤會或單純娛樂目的而攻擊他人，所有衝突都應由角色間的劇情引發。",
       "category": "combat",
       "severity": "high"
     },
     {
       "id": "vdm",
       "title": "禁止車輛殺人 (VDM)",
-      "description": "車子不是武器 — 用來逃跑，不是用來輾人",
+      "description": "車輛不得作為武器使用，除非在符合角色情節的情況下，例如正當防衛或逃避追捕。若以車輛蓄意攻擊他人，將視為嚴重違規行為。",
       "category": "combat",
       "severity": "high"
     },
     {
       "id": "metagaming",
-      "title": "禁止元遊戲 (Metagaming)",
-      "description": "你在 OOC 知道的事情就只能留在 OOC — 保持真實",
+      "title": "禁止混淆扮演 (Metagaming)",
+      "description": "現實中得知的資訊不得在遊戲內角色使用。請保持角色與現實的區隔，不得透過直播、外部通訊或其他管道影響遊戲內的角色行為。",
       "category": "roleplay",
       "severity": "high"
     },
     {
       "id": "powergaming",
-      "title": "禁止強迫遊戲行為 (Powergaming)",
-      "description": "給其他人反應機會 — 沒有人是無敵的",
+      "title": "禁止強迫行為 (Powergaming)",
+      "description": "角色互動必須給對方合理反應的空間。不得透過漏洞、外掛或不合常理的設定強迫他人接受結果，或規避角色應有的限制與風險。",
       "category": "roleplay",
       "severity": "medium"
-    },
-    {
-      "id": "nlr",
-      "title": "新生命規則 (NLR)",
-      "description": "當你死亡時，忘記過去 15 分鐘發生的事",
-      "category": "roleplay",
-      "severity": "medium"
-    },
-    {
-      "id": "respect",
-      "title": "尊重每一個人",
-      "description": "保持街頭風格但也要尊重他人 — 禁止 OOC 仇恨",
-      "category": "general",
-      "severity": "high"
-    },
-    {
-      "id": "greenzone",
-      "title": "安全區 (Green Zones)",
-      "description": "禁止在醫院、警局或出生點進行犯罪",
-      "category": "zones",
-      "severity": "medium"
-    },
-    {
-      "id": "corruption",
-      "title": "警察腐敗",
-      "description": "允許黑警，但必須經過管理員批准",
-      "category": "special",
-      "severity": "low"
     },
     {
       "id": "failrp",
       "title": "禁止 FailRP",
-      "description": "保持角色扮演 — 把生命當成真的一樣看待",
+      "description": "任何違背現實邏輯、角色設定或常理的行為都屬違規。請以真實思維扮演角色，面對恐懼、受傷、死亡等情境時，應做出合理反應。",
+      "category": "roleplay",
+      "severity": "high"
+    },
+    {
+      "id": "value-life",
+      "title": "重視生命 (Value of Life)",
+      "description": "角色應珍惜生命安全。在被武器威脅或明顯劣勢的情況下，必須做出符合現實的反應，不可無視危險或強行挑釁。",
       "category": "roleplay",
       "severity": "high"
     },
     {
       "id": "combat-logging",
       "title": "禁止劇情中登出",
-      "description": "不要在戰鬥或警察追逐中斷線",
+      "description": "在戰鬥、追逐或互動過程中，禁止刻意登出以逃避劇情結果。若發生斷線，請重新上線後主動聯繫相關人員，協助劇情延續。",
       "category": "combat",
       "severity": "high"
     },
     {
+      "id": "ems-respect",
+      "title": "醫護相關規範",
+      "description": "醫護人員在執行救援任務時，禁止干擾、攻擊或報復。醫療區域不得進行戰鬥或伏擊，任何阻礙救治的行為將視為嚴重違規。",
+      "category": "combat",
+      "severity": "medium"
+    },
+    {
       "id": "robbery",
-      "title": "搶劫規則",
-      "description": "搶銀行需要 4 名以上警察在線，搶商店需要 2 名以上",
+      "title": "搶劫與特殊事件",
+      "description": "所有犯罪行為須在至少三名警員在線時才可進行。若為非插件類犯罪或劇情互動，至少需有兩名警員在線方可執行。",
       "category": "special",
       "severity": "medium"
     },
     {
-      "id": "initiation",
-      "title": "正確的開場",
-      "description": "在進行敵對行為前必須先有角色互動開場",
-      "category": "combat",
-      "severity": "high"
+      "id": "hostage",
+      "title": "人質規則",
+      "description": "禁止找與自己同職業或關係密切的玩家當人質。人質劇情應建立在真實互動與角色關係上，不得以熟人間互演方式規避風險。",
+      "category": "special",
+      "severity": "medium"
     },
     {
-      "id": "value-life",
-      "title": "珍惜你的生命",
-      "description": "在寡不敵眾或被槍指著時，請做出真實反應",
-      "category": "roleplay",
-      "severity": "high"
+      "id": "greenzone",
+      "title": "安全區 (Green Zone)",
+      "description": "醫院、警局、釣魚點及出生點為安全區。禁止在這些區域內發生任何形式的犯罪、戰鬥或挑釁行為。請尊重公共區域的安全設定。",
+      "category": "zones",
+      "severity": "medium"
+    },
+    {
+      "id": "safezones",
+      "title": "安全區補充說明",
+      "description": "進入政府或公共設施時，禁止持槍或以威脅姿態接近他人。違反者將依情節進行懲處，嚴重者可直接封禁。",
+      "category": "zones",
+      "severity": "medium"
     },
     {
       "id": "mic-required",
-      "title": "必須使用麥克風",
-      "description": "語音聊天是必須的 — 禁止純文字角色扮演",
+      "title": "語音交流規定",
+      "description": "所有玩家須具備正常運作的麥克風，並能以語音進行角色互動。若設備異常或拒絕使用，將影響劇情互動並視情況處理。",
       "category": "general",
       "severity": "high"
     },
     {
       "id": "exploits",
       "title": "禁止利用漏洞",
-      "description": "回報漏洞，不要濫用 — 立即封禁",
+      "description": "發現漏洞請立即通報管理人員。嚴禁利用漏洞牟利、破壞遊戲平衡或影響他人體驗。惡意濫用者將直接封禁。",
       "category": "general",
       "severity": "high"
     },
     {
-      "id": "safezones",
-      "title": "安全區規則",
-      "description": "政府機構內禁止持械",
-      "category": "zones",
-      "severity": "medium"
-    },
-    {
-      "id": "hostage",
-      "title": "人質規則",
-      "description": "禁止假人質 — 人質必須是真人玩家",
-      "category": "special",
-      "severity": "medium"
-    },
-    {
-      "id": "ems-respect",
-      "title": "尊重醫護人員",
-      "description": "讓醫護做他們的工作 — 禁止在醫院守株待兔",
-      "category": "combat",
-      "severity": "medium"
-    },
-    {
       "id": "stream-sniping",
       "title": "禁止直播狙擊",
-      "description": "不要利用直播獲取優勢",
+      "description": "不得透過直播或外部資訊取得遊戲內優勢。尊重他人隱私與劇情發展，違者視為嚴重違規。",
       "category": "general",
       "severity": "high"
     },
     {
       "id": "erp",
-      "title": "禁止未經對方同意強制對方ERP",
-      "description": "禁止未經同意的性相關內容",
+      "title": "ERP 相關規範",
+      "description": "所有涉及性相關的角色互動，皆須經雙方明確同意。任何未經同意的性暗示或行為，將視為嚴重違規並立即處理。",
       "category": "roleplay",
       "severity": "high"
     }
+]
+
   ],
 
   "team": [
