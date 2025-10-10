@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger, smoothScrollTo } from '../../lib/gsap-config'
-import { Home, Briefcase, Shield, Users, Image, ScrollText, Heart } from 'lucide-react'
+import { Home, Briefcase, Shield, Users, Image, ScrollText } from 'lucide-react'
 import siteConfig from '../../config/site.config.json'
 import { BottomNavigation } from './BottomNavigation'
 
