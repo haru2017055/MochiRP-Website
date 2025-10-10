@@ -870,34 +870,6 @@
     ]
   },
 
-  "donations": {
-    "enabled": true,
-    "currency": "TWD",
-    "paypalUrl": "https://paypal.me/strawberrytown",
-    "packages": [
-      {
-        "id": "supporter",
-        "name": "街頭支持者",
-        "price": 5,
-        "perks": ["優先佇列", "支持者稱號", "額外服裝欄位"],
-        "popular": false
-      },
-      {
-        "id": "vip",
-        "name": "VIP 身分",
-        "price": 15,
-        "perks": ["優先佇列", "VIP 稱號", "額外角色欄位", "自訂車牌", "VIP 休息室通行"],
-        "popular": true
-      },
-      {
-        "id": "elite",
-        "name": "精英幫派",
-        "price": 30,
-        "perks": ["優先佇列", "精英稱號", "2 個額外角色欄位", "自訂車牌", "專屬載具", "自訂幫派稱號"],
-        "popular": false
-      }
-    ]
-  },
   "footer": {
     "showNewsletter": false,
     "showSocialLinks": true,
