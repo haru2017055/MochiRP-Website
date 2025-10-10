@@ -681,7 +681,6 @@
     ]
   },
   "rules": [
-    [
     {
       "id": "rdm",
       "title": "禁止隨機殺人 (RDM)",
@@ -794,9 +793,7 @@
       "category": "roleplay",
       "severity": "high"
     }
-]
-
-  ],
+],
 
   "team": [
     {
