@@ -305,7 +305,17 @@
     }
   ],
   "gallery": {
-    "images": []
+    "images": [
+      {
+        "id": 0,
+        "src": "",
+        "alt": "",
+        "title": "",
+        "category": "",
+        "featured": false
+      }
+    ],
+    "categories": []
   },
   "_disabled_gallery": {
     "images": [
