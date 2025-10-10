@@ -304,6 +304,9 @@
       "highlight": true
     }
   ],
+  "gallery": {
+    "images": []
+  },
   "_disabled_gallery": {
     "images": [
       { 
