@@ -458,12 +458,6 @@
         "legal": true
       },
       {
-        "id": "medical",
-        "name": "醫療",
-        "color": "green",
-        "legal": true
-      },
-      {
         "id": "will",
         "name": "未來開放",
         "color": "green",
@@ -490,12 +484,12 @@
         },
         {
           "id": "ems",
-          "name": "急救人員",
-          "category": "government",
-          "description": "與死神賽跑的英雄，負責緊急醫療與救護（僅在特別劇情中出現）。",
+          "name": "醫護局",
+          "category": "emergency",
+          "description": "城市醫療體系的核心，為市民提供完善的醫護支援！",
           "requirements": ["無犯罪紀錄", "需面試"],
           "salary": 500,
-          "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
+          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
         },
         {
           "id": "taxi",
@@ -588,24 +582,6 @@
           "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
         },
         {
-          "id": "doctor",
-          "name": "醫生",
-          "category": "government",
-          "description": "提供專業的醫療服務，守護每一條寶貴的生命（特別劇情登場）。",
-          "requirements": ["醫師執照", "需有經驗"],
-          "salary": 500,
-          "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
-        },
-        {
-          "id": "nurse",
-          "name": "護士",
-          "category": "government",
-          "description": "在醫院中協助醫生、照顧病患，是醫療團隊不可或缺的一環（特別劇情登場）。",
-          "requirements": ["需有經驗", "提供訓練"],
-          "salary": 500,
-          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-        },
-        {
           "id": "sing",
           "name": "街頭藝人",
           "category": "civilian",
@@ -656,15 +632,6 @@
           "category": "will",
           "description": "為城市增添更多美食選擇，讓人回味無窮！",
           "requirements": ["無需條件", "需自費購買插件與地圖"],
-          "salary": 500,
-          "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-        },
-        {
-          "id": "will4",
-          "name": "醫護局",
-          "category": "will",
-          "description": "城市醫療體系的核心，為市民提供完善的醫護支援！",
-          "requirements": ["熱愛醫療工作", "需自費購買地圖"],
           "salary": 500,
           "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
         },
