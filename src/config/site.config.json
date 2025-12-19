@@ -79,7 +79,7 @@
     },
     "stats": {
       "established": "2025",
-      "totalPlayers": "100+",
+      "totalPlayers": "300+",
       "activeGangs": "3",
       "businesses": "5"
     },
@@ -806,7 +806,7 @@
   ],
 
   "api": {
-    "serverCode": "ymkax5",
+    "serverCode": "bjl6vb",
     "cfxApiUrl": "https://servers-frontend.fivem.net/api/servers/single/",
     "refreshInterval": 30000
   },
